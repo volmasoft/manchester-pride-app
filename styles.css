@@ -410,6 +410,7 @@ body {
           overflow-x: auto;
           overflow-y: hidden;
         }
+}
       .about-content {
         background: rgba(255,255,255,0.05);
         border: 1px solid rgba(255,255,255,0.08);
@@ -529,3 +530,16 @@ body {
       .metrics-table tr:hover {
         background: rgba(255, 255, 255, 0.06);
       }
+/* Hide venueMetrics on home page - shown only on metrics page */
+.page.metrics-hidden .metrics-section {
+  display: none !important;
+}
+
+.page.metrics-visible .metrics-section {
+  display: block !important;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 18px 20px;
+  margin-top: 32px;
+}
