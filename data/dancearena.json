@@ -1,15 +1,17 @@
 {
-  "venue": "Dance arena",
-  "url": "https://www.manchestervillagepride.org/",
-  "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
-  "official": true,
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "Dance arena",
+    "url": "https://www.manchestervillagepride.org/",
+    "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
+    "official": true,
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "Fmr National Express Bus Station, Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://maps.app.goo.gl/HDkvpES2Kd2jGtL87"
 }

@@ -1,14 +1,16 @@
 {
-  "venue": "Iconic Bar",
-  "url": "https://www.instagram.com/iconicbarmcr",
-  "color": "linear-gradient(135deg, #0ea5e9 0%, #38bdf8 45%, #bae6fd 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "Iconic Bar",
+    "url": "https://www.instagram.com/iconicbarmcr",
+    "color": "linear-gradient(135deg, #0ea5e9 0%, #38bdf8 45%, #bae6fd 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "29 Richmond St, Manchester M1 3NB",
+    "mapsUrl": "https://www.google.com/maps?q=29+Richmond+St,+Manchester+M1+3NB"
 }

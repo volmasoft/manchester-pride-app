@@ -325,18 +325,14 @@ function createEventCard(event, topPx, heightPx, leftPx, widthPx) {
   }
 
   const venue = document.createElement('small');
-  if (event.venueUrl) {
     const venueLink = document.createElement('a');
-    venueLink.href = event.venueUrl;
+    venueLink.href = 'venue.html?venue=' + encodeURIComponent(event.venue);
     venueLink.target = '_blank';
     venueLink.rel = 'noopener noreferrer';
     venueLink.textContent = `Venue: ${event.venue}`;
     venueLink.style.color = 'white';
     venueLink.style.textDecoration = 'underline';
     venue.appendChild(venueLink);
-  } else {
-    venue.textContent = `Venue: ${event.venue}`;
-  }
 
   const details = document.createElement('small');
   details.textContent = formatTimeRange(event.start, event.end);
@@ -768,7 +764,12 @@ function renderVenueMetrics(events) {
     const row = document.createElement('tr');
 
     const nameCell = document.createElement('td');
-    nameCell.textContent = venue;
+    const venueLink = document.createElement('a');
+    venueLink.href = 'venue.html?venue=' + encodeURIComponent(venue);
+    venueLink.className = 'venue-link';
+    venueLink.textContent = venue;
+    venueLink.setAttribute('aria-label', 'View events for ' + venue);
+    nameCell.appendChild(venueLink);
     nameCell.className = 'venue-name';
     row.appendChild(nameCell);
 

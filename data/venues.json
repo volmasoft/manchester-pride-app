@@ -1,5 +1,6 @@
 {
   "venues": [
+    "data/area.json",
     "data/barpop.json",
     "data/brewers.json",
     "data/centre-stage.json",

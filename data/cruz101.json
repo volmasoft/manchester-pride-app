@@ -1,14 +1,16 @@
 {
-  "venue": "Cruz 101",
-  "url": "https://www.instagram.com/cruz101official",
-  "color": "linear-gradient(135deg, #db2777 0%, #ec4899 45%, #f9a8d4 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "Cruz 101",
+    "url": "https://www.instagram.com/cruz101official",
+    "color": "linear-gradient(135deg, #db2777 0%, #ec4899 45%, #f9a8d4 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "101 Princess Street, Manchester, M1 6DD",
+    "mapsUrl": "https://www.google.com/maps?q=101+Princess+Street,+Manchester+M1+6DD"
 }

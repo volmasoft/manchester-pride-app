@@ -1,14 +1,16 @@
 {
-  "venue": "G-A-Y Manchester",
-  "url": "https://www.instagram.com/gaymanchester",
-  "color": "linear-gradient(135deg, #ad289a 0%, #db2777 45%, #f9a8d4 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "G-A-Y Manchester",
+    "url": "https://www.instagram.com/gaymanchester",
+    "color": "linear-gradient(135deg, #ad289a 0%, #db2777 45%, #f9a8d4 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "63 Richmond Street, Manchester, M1 3WB",
+    "mapsUrl": "https://www.google.com/maps?q=63+Richmond+Street,+Manchester+M1+3WB"
 }

@@ -1,14 +1,16 @@
 {
-  "venue": "REM Bar",
-  "url": "https://www.therembrandtmanchester.com/",
-  "color": "linear-gradient(135deg, #991b1b 0%, #dc2626 45%, #fecaca 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "REM Bar",
+    "url": "https://www.therembrandtmanchester.com/",
+    "color": "linear-gradient(135deg, #991b1b 0%, #dc2626 45%, #fecaca 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "33 Sackville Street, Manchester, M1 3LZ",
+    "mapsUrl": "https://www.google.com/maps?q=33+Sackville+Street,+Manchester+M1+3LZ"
 }

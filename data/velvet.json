@@ -1,14 +1,16 @@
 {
-  "venue": "Velvet",
-  "url": "https://www.velvetmanchester.com/",
-  "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "Velvet",
+    "url": "https://www.velvetmanchester.com/",
+    "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "2 Canal Street, Manchester, M1 3HE",
+    "mapsUrl": "https://www.google.com/maps?q=2+Canal+Street,+Manchester+M1+3HE"
 }

@@ -1,14 +1,16 @@
 {
-  "venue": "Oscars",
-  "url": "https://www.instagram.com/oscarsbarmcr",
-  "color": "linear-gradient(135deg, #9a3412 0%, #ea580c 45%, #fed7aa 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "Oscars",
+    "url": "https://www.instagram.com/oscarsbarmcr",
+    "color": "linear-gradient(135deg, #9a3412 0%, #ea580c 45%, #fed7aa 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "34 Canal Street, Manchester, M1 3WD",
+    "mapsUrl": "https://www.google.com/maps?q=34+Canal+Street,+Manchester+M1+3WD"
 }

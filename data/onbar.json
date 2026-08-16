@@ -1,14 +1,16 @@
 {
-  "venue": "ON Bar",
-  "url": "https://www.instagram.com/onbarmanchester",
-  "color": "linear-gradient(135deg, #1e40af 0%, #3b82f6 45%, #bfdbfe 100%)",
-  "events": [
-    {
-      "title": "TEST",
-      "day": "thursday",
-      "start": "08:00",
-      "end": "20:00",
-      "description": "TEST."
-    }
-  ]
+    "venue": "ON Bar",
+    "url": "https://www.instagram.com/onbarmanchester",
+    "color": "linear-gradient(135deg, #1e40af 0%, #3b82f6 45%, #bfdbfe 100%)",
+    "events": [
+        {
+            "title": "TEST",
+            "day": "thursday",
+            "start": "08:00",
+            "end": "20:00",
+            "description": "TEST."
+        }
+    ],
+    "address": "46 Canal St, Manchester M1 3WD",
+    "mapsUrl": "https://www.google.com/maps?q=46+Canal+St,+Manchester+M1+3WD"
 }
