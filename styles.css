@@ -653,3 +653,65 @@ textarea:focus {
   border: 0;
   padding: 0;
 }
+
+/* Share button - visually consistent with other nav links */
+.share-btn {
+  position: relative;
+}
+
+.share-btn svg {
+  stroke: currentColor;
+}
+
+.share-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  min-width: 140px;
+  background: var(--panel);
+  border: 1px solid var(--panel-alt);
+  border-radius: 8px;
+  padding: 8px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: none;
+}
+
+.share-dropdown.active {
+  display: block;
+}
+
+.share-option {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.875rem;
+  transition: background 0.2s;
+}
+
+.share-option:hover {
+  background: var(--panel-alt);
+}
+
+.share-option:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  background: var(--panel-alt);
+}
+
+/* QR code section on About page */
+.qr-section {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.qr-section .qr-code {
+  max-width: 200px;
+  height: auto;
+  border: 1px solid var(--panel-alt);
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
