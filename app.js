@@ -682,6 +682,12 @@ function renderVenueMetrics(events) {
 
   container.innerHTML = '';
 
+  // Add a visually hidden heading for the table for proper accessibility structure
+  const tableHeading = document.createElement('h2');
+  tableHeading.className = 'visually-hidden';
+  tableHeading.textContent = 'Venue event metrics table';
+  container.appendChild(tableHeading);
+
   const table = document.createElement('table');
   table.className = 'metrics-table';
 
