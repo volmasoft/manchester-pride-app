@@ -682,10 +682,6 @@ function renderVenueMetrics(events) {
 
   container.innerHTML = '';
 
-  const heading = document.createElement('h2');
-  heading.textContent = 'Venue event metrics';
-  container.appendChild(heading);
-
   const table = document.createElement('table');
   table.className = 'metrics-table';
 
