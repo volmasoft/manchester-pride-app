@@ -350,6 +350,7 @@ function setupVenueFilters(events) {
   // --- Days dropdown (first, no collapsible panel) ---
   const daySelect = document.createElement('select');
   daySelect.className = 'day-select';
+  daySelect.setAttribute('aria-label', 'Select day to view events');
   days.forEach(day => {
     const option = document.createElement('option');
     option.value = day.key;

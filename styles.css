@@ -602,3 +602,40 @@ textarea:focus {
   outline-offset: 2px;
   background: rgba(234, 69, 127, 0.2);
 }
+
+/* ========================================
+   WCAG 2.1 AA Compliance - Skip Link
+   ======================================== */
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--accent);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: top 0.2s ease;
+  z-index: 1000;
+  /* Ensure it's always visible on focus */
+  outline: 2px solid transparent;
+}
+
+.skip-link:focus {
+  top: 6px;
+  outline: 2px solid var(--text);
+}
+
+.skip-link:not(:focus) {
+  /* Hide visually but keep for screen readers */
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  border: 0;
+}
