@@ -1,4 +1,4 @@
-// Share functionality - Prompt based
+// Share functionality - Native share on mobile, fallback for desktop
 const SHARE_URL = 'https://www.manchesterprideevents.com';
 const SHARE_TITLE = 'Manchester Pride Events 2026';
 
@@ -8,26 +8,43 @@ function showSharePrompt(event) {
   const url = SHARE_URL;
   const title = SHARE_TITLE;
   
-  const choice = prompt('Share with which platform?\n\nX (Twitter)\nInstagram\nFacebook\nOr type "copy" to copy the URL:', 'X');
+  // Try native share API first on mobile
+  if (navigator.share) {
+    navigator.share({
+      title: title,
+      url: url
+    }).catch(err => {
+      // Native share failed, fall back to prompt
+      showShareFallback();
+    });
+  } else {
+    showShareFallback();
+  }
+}
+
+function showShareFallback() {
+  const choice = prompt('Share with which platform?\n\nX (Twitter)\nFacebook\nOr type "copy" to copy the URL:', 'X');
   
   if (!choice) return; // User cancelled
   
   const normalizedChoice = choice.toLowerCase().trim();
+  const url = SHARE_URL;
+  const title = SHARE_TITLE;
   
   if (normalizedChoice === 'x' || normalizedChoice === 'twitter') {
     const tweetUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`;
-    window.open(tweetUrl, '_blank');
-  } else if (normalizedChoice === 'instagram') {
-    // Instagram doesn't have a direct share URL, so we copy the URL and suggest manual sharing
-    navigator.clipboard.writeText(url).then(() => {
-      alert('URL copied!\nPaste it in Instagram Stories or your caption.');
-    });
+    window.open(tweetUrl, '_blank', 'noopener,noreferrer');
   } else if (normalizedChoice === 'facebook') {
     const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
-    window.open(fbUrl, '_blank');
+    window.open(fbUrl, '_blank', 'noopener,noreferrer');
   } else if (normalizedChoice === 'copy') {
     navigator.clipboard.writeText(url).then(() => {
       alert('URL copied to clipboard!');
+    });
+  } else if (normalizedChoice === 'instagram' || normalizedChoice === 'insta') {
+    // Instagram shares via clipboard + manual paste
+    navigator.clipboard.writeText(url).then(() => {
+      alert('URL copied!\n\nInstagram sharing works best from the app.\nYou can paste the URL in Stories or a post.');
     });
   }
 }
