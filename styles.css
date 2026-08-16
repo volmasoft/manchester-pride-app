@@ -515,7 +515,7 @@ body {
         line-height: 1.6;
         color: var(--text);
       }
-      .metrics-intro h3 {
+      .metrics-intro h2 {
         margin: 0 0 12px 0;
         font-size: 1rem;
         color: var(--text);
@@ -638,4 +638,18 @@ textarea:focus {
   white-space: nowrap;
   width: 1px;
   border: 0;
+}
+
+
+/* Visually hidden - for screen readers only */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  border: 0;
+  padding: 0;
 }
