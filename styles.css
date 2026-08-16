@@ -121,7 +121,8 @@ body {
         line-height: 1;
       }
       .day-select:focus {
-        outline: none;
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
         border-color: var(--accent);
       }
       .day-select option {
