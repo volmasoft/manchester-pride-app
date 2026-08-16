@@ -4,11 +4,11 @@
     "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
     "events": [
         {
-            "title": "TEST",
-            "day": "thursday",
+            "title": "NO EVENTS LISTED",
+            "day": "wednesday",
             "start": "08:00",
-            "end": "20:00",
-            "description": "TEST."
+            "end": "09:00",
+            "description": "NO EVENTS LISTED"
         }
     ],
     "address": "2 Canal Street, Manchester, M1 3HE",

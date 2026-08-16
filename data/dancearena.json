@@ -5,11 +5,11 @@
     "official": true,
     "events": [
         {
-            "title": "TEST",
-            "day": "thursday",
+            "title": "NO EVENTS LISTED",
+            "day": "wednesday",
             "start": "08:00",
-            "end": "20:00",
-            "description": "TEST."
+            "end": "09:00",
+            "description": "NO EVENTS LISTED"
         }
     ],
     "address": "Fmr National Express Bus Station, Bloom St, Manchester M1 3LY",

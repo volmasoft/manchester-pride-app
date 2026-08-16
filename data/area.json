@@ -4,11 +4,44 @@
     "color": "linear-gradient(135deg, #dc2626 0%, #f59e0b 45%, #fbbf24 100%)",
     "events": [
         {
-            "title": "TEST",
-            "day": "thursday",
-            "start": "08:00",
-            "end": "20:00",
-            "description": "TEST."
+            "title": "VANILLA - Basement Takeover",
+            "day": "friday",
+            "start": "22:00",
+            "end": "05:30",
+            "description": "Manchester Village Pride Entry to Vanilla ALL WEEKEND!",
+            "ticket": 6.00
+        },
+        {
+            "title": "Laugh Out Proud - Queer Comedy",
+            "day": "saturday",
+            "start": "19:30",
+            "end": "21:30",
+            "description": "LAUGH OUT PROUD IS BACK for Manchester Village Pride on Saturday 29th August",
+            "ticket": 6.00
+        },
+        {
+            "title": "VANILLA XXL",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "05:00",
+            "description": "VANILLA XXL - Pride Saturday - Full Venue Takeover",
+            "ticket": 11.25
+        },
+        {
+            "title": "SINPIT",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "05:30",
+            "description": "One sacred dance floor. One community. One unforgettable Pride night.",
+            "ticket": 9.00
+        },
+        {
+            "title": "VANILLA XXL",
+            "day": "sunday",
+            "start": "22:00",
+            "end": "05:30",
+            "description": "VANILLA XXL - Pride Sunday - Main Room Takeover",
+            "ticket": 11.25
         }
     ],
     "address": "50 Sackville Street, Manchester, M1 3WF",

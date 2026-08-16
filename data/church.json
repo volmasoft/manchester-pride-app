@@ -4,11 +4,11 @@
     "color": "linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #93c5fd 100%)",
     "events": [
         {
-            "title": "TEST",
-            "day": "thursday",
+            "title": "NO EVENTS LISTED",
+            "day": "wednesday",
             "start": "08:00",
-            "end": "20:00",
-            "description": "TEST."
+            "end": "09:00",
+            "description": "NO EVENTS LISTED"
         }
     ],
     "address": "37 Chorlton Street, Manchester, M1 3HN",
