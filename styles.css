@@ -1,0 +1,535 @@
+/* Manchester Pride Events - Shared Styles */
+:root {
+  --bg: #111827;
+  --panel: #1f2937;
+  --panel-alt: #374151;
+  --text: #f9fafb;
+  --muted: #9ca3af;
+  --accent: #ec4899;
+  --accent-2: #8b5cf6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: var(--text);
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+      .nav-link {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+      .nav-link:hover {
+        background: rgba(255,255,255,0.08);
+      }
+      /* Header container - centered layout */
+      .header-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+      .logo {
+        height: 150px;
+        width: 150px;
+        flex-shrink: 0;
+        object-fit: contain;
+      }
+      .header-title {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      .nav-bar {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+      }
+      .nav-link.active {
+        background: var(--accent);
+        color: white;
+      }
+      .filters {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      .filter-panel {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 16px;
+        padding: 14px;
+        min-width: 200px;
+        flex: 1 1 220px;
+      }
+      /* Tickets panel - compact with vertical chips */
+      .filter-panel.tickets {
+        min-width: 150px;
+        flex: 0 1 160px;
+      }
+      /* Venues panel - expanded to fit more items per line */
+      .filter-panel.venues {
+        min-width: 320px;
+        flex: 1 1 380px;
+      }
+      .filter-panel h3 {
+        margin: 0 0 10px;
+        font-size: 0.95rem;
+      }
+      .filter-chip {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.08);
+        color: var(--text);
+        margin: 6px 6px 0 0;
+      }
+      .filter-chip input {
+        accent-color: var(--accent);
+      }
+      .day-select {
+        width: 140px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(255,255,255,0.1);
+        background: rgba(255,255,255,0.08);
+        color: var(--text);
+        font-size: 0.95rem;
+        cursor: pointer;
+        height: 40px;
+        line-height: 1;
+      }
+      .day-select:focus {
+        outline: none;
+        border-color: var(--accent);
+      }
+      .day-select option {
+        background: var(--panel);
+        color: var(--text);
+      }
+      .filter-section-header {
+        display: flex;
+        align-items: center;
+        margin: 12px 0 8px;
+        padding-top: 4px;
+      }
+      .filter-section-title {
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+      .filter-global-reset {
+        margin-left: auto;
+      }
+      .filter-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+      .filter-actions {
+        margin-top: 10px;
+      }
+      .collapsible-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+      }
+      .collapsible-header h3 {
+        margin: 0;
+        font-size: 0.95rem;
+      }
+      .collapse-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--text);
+        cursor: pointer;
+        padding: 4px 8px;
+        border-radius: 8px;
+      }
+      .collapse-toggle:hover {
+        background: rgba(255, 255, 255, 0.14);
+      }
+      .collapse-toggle .chevron {
+        display: inline-block;
+        font-size: 0.85rem;
+        line-height: 1;
+        transition: transform 0.2s ease;
+        /* Open by default: ▼ rotated 180deg points up (▲) */
+        transform: rotate(180deg);
+      }
+      /* Collapsed: ▼ points down */
+      .collapse-toggle.collapsed .chevron {
+        transform: rotate(0deg);
+      }
+      .collapsible-content.collapsed {
+        display: none;
+      }
+      .reset-button {
+        border: 0;
+        border-radius: 999px;
+        padding: 8px 12px;
+        background: var(--accent);
+        color: white;
+        cursor: pointer;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        height: auto;
+        align-self: flex-start;
+      }
+      .tabs {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+      }
+      .tab {
+        border: 0;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: var(--panel-alt);
+        color: var(--text);
+        cursor: pointer;
+      }
+      .tab.active {
+        background: var(--accent);
+      }
+      .timeline-view {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 16px;
+      }
+      .time-row {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 12px;
+        align-items: start;
+        margin-bottom: 12px;
+      }
+      .timeline-calendar {
+        position: relative;
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 14px;
+        overflow: auto;
+        background: rgba(255,255,255,0.03);
+      }
+      .timeline-hours {
+        display: flex;
+        flex-direction: column;
+      }
+      .timeline-hour {
+        display: flex;
+        height: 72px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+      }
+      .timeline-hour:first-child {
+        border-top: 0;
+      }
+      .timeline-hour-label {
+        width: 56px;
+        padding: 6px 8px;
+        color: var(--muted);
+        font-size: 0.8rem;
+        flex-shrink: 0;
+      }
+      .timeline-hour-line {
+        flex: 1;
+        border-left: 1px solid rgba(255,255,255,0.08);
+      }
+      .timeline-events {
+        position: absolute;
+        top: 0;
+        left: 56px;
+        right: 0;
+        padding: 8px 8px 8px 0;
+      }
+      .event-card {
+        position: absolute;
+        border-radius: 12px;
+        padding: 10px;
+        color: white;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      .calendar-event-card {
+        border-left: 4px solid rgba(255,255,255,0.35);
+      }
+      .event-card small {
+        display: block;
+        opacity: 0.9;
+        margin-top: 4px;
+      }
+      .title-row {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 4px;
+      }
+      .ticket-icon {
+        font-size: 0.95rem;
+      }
+      /* Gold star badges to mark officially-listed venues */
+      .official-star,
+      .venue-official-star {
+        color: #fbbf24;
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+        pointer-events: none;
+      }
+      .official-star {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-size: 1.1rem;
+      }
+      .venue-official-star {
+        font-size: 0.95rem;
+        margin-right: 4px;
+      }
+      .empty-state {
+        padding: 20px;
+        color: var(--muted);
+        border: 1px dashed rgba(255,255,255,0.12);
+        border-radius: 12px;
+      }
+      .status {
+        margin-top: 20px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        z-index: 1000;
+      }
+      .modal-card {
+        background: var(--panel);
+        color: var(--text);
+        border-radius: 16px;
+        padding: 20px;
+        max-width: 500px;
+        width: 100%;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+      }
+      .modal-card h2 {
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+      .modal-card p {
+        color: var(--text);
+        line-height: 1.5;
+      }
+      .modal-close {
+        margin-top: 12px;
+        padding: 8px 12px;
+        border: 0;
+        border-radius: 999px;
+        background: var(--accent);
+        color: white;
+        cursor: pointer;
+      }
+      .metrics-section {
+        margin-top: 32px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 18px;
+        padding: 18px 20px;
+      }
+      .metrics-section h2 {
+        margin: 0 0 14px;
+        font-size: 1.15rem;
+        color: var(--text);
+      }
+      .metrics-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        color: var(--text);
+      }
+      .metrics-table th,
+      .metrics-table td {
+        padding: 8px 10px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .metrics-table th {
+        color: var(--muted);
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.72rem;
+        letter-spacing: 0.04em;
+      }
+      .metrics-table td.venue-name {
+        text-align: left;
+        font-weight: 600;
+        color: var(--text);
+      }
+      .metrics-table td.empty {
+        color: var(--muted);
+        opacity: 0.45;
+      }
+      .metrics-table td.total {
+        font-weight: 700;
+        border-left: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      @media (max-width: 700px) {
+        .timeline-calendar {
+          overflow-x: auto;
+          overflow-y: hidden;
+        }
+      .about-content {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 24px;
+      }
+      .about-content h1 {
+        margin-top: 0;
+        font-size: 1.8rem;
+        color: var(--accent);
+      }
+      .about-content h2 {
+        margin: 24px 0 12px;
+        font-size: 1.3rem;
+        color: var(--text);
+      }
+      .about-content p {
+        line-height: 1.6;
+        color: var(--text);
+        margin: 12px 0;
+      }
+      .about-content ul {
+        padding-left: 24px;
+      }
+      .about-content li {
+        margin: 8px 0;
+      }
+      .about-content a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .about-content a:hover {
+        text-decoration: underline;
+      }
+    
+      .events-list {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 16px;
+      }
+      .events-list h1 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        color: var(--text);
+      }
+      .day-group {
+        margin-bottom: 24px;
+      }
+      .day-group h2 {
+        margin: 0 0 12px;
+        font-size: 1.2rem;
+        color: var(--accent);
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+      }
+      .event-item {
+        padding: 12px 16px;
+        margin: 8px 0;
+        background: rgba(255,255,255,0.06);
+        border-radius: 8px;
+        border-left: 4px solid var(--accent);
+      }
+      .event-item h3 {
+        margin: 0 0 4px;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .event-item .time {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin: 0 0 8px;
+      }
+      .event-item .venue {
+        font-size: 0.9rem;
+        color: var(--text);
+        margin: 0;
+      }
+      .event-item .ticket {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 4px;
+      }
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: var(--muted);
+      }
+      .no-events {
+        padding: 20px;
+        text-align: center;
+        color: var(--muted);
+      }
+    
+      /* Hide non-metrics elements on metrics page */
+      .filters, .timeline-view, #eventModal, .status {
+        display: none !important;
+      }
+      .metrics-intro {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 20px;
+        margin-bottom: 24px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: var(--text);
+      }
+      .metrics-intro h3 {
+        margin: 0 0 12px 0;
+        font-size: 1rem;
+        color: var(--accent);
+      }
+      .metrics-intro p {
+        margin: 8px 0;
+        color: var(--muted);
+      }
+      .metrics-table td {
+        background: rgba(255, 255, 255, 0.03);
+      }
+      .metrics-table tr:hover {
+        background: rgba(255, 255, 255, 0.06);
+      }
