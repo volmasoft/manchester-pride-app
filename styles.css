@@ -518,7 +518,7 @@ body {
       .metrics-intro h3 {
         margin: 0 0 12px 0;
         font-size: 1rem;
-        color: var(--accent);
+        color: var(--text);
       }
       .metrics-intro p {
         margin: 8px 0;
@@ -542,4 +542,63 @@ body {
   border-radius: 18px;
   padding: 18px 20px;
   margin-top: 32px;
+}
+
+/* ========================================
+   WCAG 2.1 AA Compliance - Focus Styles
+   ======================================== */
+
+/* Visible focus indicators for keyboard navigation */
+a:focus,
+.nav-link:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 8px;
+  z-index: 10;
+  position: relative;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--accent);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: top 0.2s ease;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+.skip-link:not(:focus) {
+  /* Hide skip link visually but keep it available for screen readers */
+  clip: rect(0 0 0 0);
+  clip-path: inset(0);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Ensure focus is visible for all interactive elements */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Modal close button focus */
+.modal-close:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  background: rgba(234, 69, 127, 0.2);
 }

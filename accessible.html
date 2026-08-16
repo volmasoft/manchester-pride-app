@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="header-row">
-      <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
-      <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
-      <div class="nav-bar">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="accessible.html" class="nav-link active">Accessible Version</a>
-        <a href="metrics.html" class="nav-link">Metrics</a>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <nav aria-label="Main navigation">
+      <div class="header-row">
+        <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
+        <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
+        <div class="nav-bar">
+          <a href="index.html" class="nav-link" aria-label="Home page">Home</a>
+          <a href="about.html" class="nav-link" aria-label="About page">About</a>
+          <a href="accessible.html" class="nav-link active" aria-label="Accessible events list">Accessible Version</a>
+          <a href="metrics.html" class="nav-link" aria-label="Metrics page">Metrics</a>
+        </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="page">
+    <main id="main-content" class="page">
       <div class="events-list">
-        <h1>All Events - Manchester Pride 2026</h1>
+        <h2>All Events - Manchester Pride 2026</h2>
         <div id="eventsContainer" class="loading">Loading events...</div>
       </div>
-    </div>
+    </main>
 
     <script>
       // Day order for sorting

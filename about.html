@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="header-row">
-      <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
-      <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
-      <div class="nav-bar">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link active">About</a>
-        <a href="accessible.html" class="nav-link">Accessible Version</a>
-        <a href="metrics.html" class="nav-link">Metrics</a>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <nav aria-label="Main navigation">
+      <div class="header-row">
+        <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
+        <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
+        <div class="nav-bar">
+          <a href="index.html" class="nav-link" aria-label="Home page">Home</a>
+          <a href="about.html" class="nav-link active" aria-label="About page">About</a>
+          <a href="accessible.html" class="nav-link" aria-label="Accessible version">Accessible Version</a>
+          <a href="metrics.html" class="nav-link" aria-label="Metrics page">Metrics</a>
+        </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="page">
+    <main id="main-content" class="page">
       <article class="about-content">
-        <h1>About This Application</h1>
+        <h2>About This Application</h2>
         
         <p>This is an unofficial application for Manchester Pride 2026 events. 
         It aims to consolidate events from various venue websites into one convenient 
@@ -52,6 +55,8 @@
         <h2>Contact</h2>
         <p>We are currently setting up an e-mail for enquiries.</p>
       </article>
-    </div>
+    </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
