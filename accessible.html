@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Events List - Manchester Pride Events 2026 (Unofficial)</title>
+    <style>
+      :root {
+        --bg: #111827;
+        --panel: #1f2937;
+        --panel-alt: #374151;
+        --text: #f9fafb;
+        --muted: #9ca3af;
+        --accent: #ec4899;
+        --accent-2: #8b5cf6;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: linear-gradient(135deg, #111827, #1f2937);
+        color: var(--text);
+      }
+
+      .page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      /* Header container - centered layout */
+      .header-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .logo {
+        height: 150px;
+        width: 150px;
+        flex-shrink: 0;
+        object-fit: contain;
+      }
+
+      .header-title {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .nav-bar {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-link {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+
+      .nav-link:hover {
+        background: rgba(255,255,255,0.08);
+      }
+
+      .nav-link.active {
+        background: var(--accent);
+        color: white;
+      }
+
+      .events-list {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 16px;
+      }
+
+      .events-list h1 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        color: var(--text);
+      }
+
+      .day-group {
+        margin-bottom: 24px;
+      }
+
+      .day-group h2 {
+        margin: 0 0 12px;
+        font-size: 1.2rem;
+        color: var(--accent);
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+      }
+
+      .event-item {
+        padding: 12px 16px;
+        margin: 8px 0;
+        background: rgba(255,255,255,0.06);
+        border-radius: 8px;
+        border-left: 4px solid var(--accent);
+      }
+
+      .event-item h3 {
+        margin: 0 0 4px;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .event-item .time {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin: 0 0 8px;
+      }
+
+      .event-item .venue {
+        font-size: 0.9rem;
+        color: var(--text);
+        margin: 0;
+      }
+
+      .event-item .ticket {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 4px;
+      }
+
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: var(--muted);
+      }
+
+      .no-events {
+        padding: 20px;
+        text-align: center;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-row">
+      <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
+      <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
+      <div class="nav-bar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="accessible.html" class="nav-link active">Accessible Version</a>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="events-list">
+        <h1>All Events - Manchester Pride 2026</h1>
+        <div id="eventsContainer" class="loading">Loading events...</div>
+      </div>
+    </div>
+
+    <script>
+      // Day order for sorting
+      const dayOrder = { 
+        wednesday: 0, thursday: 1, friday: 2, saturday: 3, sunday: 4, monday: 5 
+      };
+      const dayLabels = {
+        wednesday: 'Wednesday 26',
+        thursday: 'Thursday 27',
+        friday: 'Friday 28',
+        saturday: 'Saturday 29',
+        sunday: 'Sunday 30',
+        monday: 'Monday 31'
+      };
+
+      async function loadVenueFiles() {
+        // Fetch venue files list
+        const response = await fetch('./data/venues.json');
+        const manifest = await response.json();
+        const files = (manifest.venues || manifest.files || [])
+          .map(path => path.replace(/^\/+/, ''))
+          .filter(path => path.endsWith('.json') && path.startsWith('data/'));
+
+        // Fetch all venue data
+        const results = await Promise.all(
+          files.map(file => fetch('./' + file).then(r => r.json()))
+        );
+
+        // Combine and normalize events
+        const events = results.flatMap(venueData =>
+          venueData.events.map(event => ({
+            ...event,
+            venue: venueData.venue,
+            venueUrl: venueData.url || '',
+            official: venueData.official === true,
+            day: String(event.day || '').trim().toLowerCase()
+          }))
+        );
+
+        // Sort by day order, then time
+        events.sort((a, b) => 
+          dayOrder[a.day] - dayOrder[b.day] || 
+          (a.start < b.start ? -1 : a.start > b.start ? 1 : 0)
+        );
+
+        return events;
+      }
+
+      function formatTime(value) {
+        const [hours, minutes] = value.split(':').map(Number);
+        const suffix = hours >= 12 ? 'pm' : 'am';
+        const hour12 = hours % 12 || 12;
+        return hour12 + ':' + String(minutes).padStart(2, '0') + suffix;
+      }
+
+      function formatTimeRange(start, end) {
+        const startTime = formatTime(start);
+        const [endHours, endMins] = end.split(':').map(Number);
+        const endMinutes = endHours * 60 + endMins;
+        const startMinutes = parseInt(start.split(':')[0]) * 60 + parseInt(start.split(':')[1]);
+        const endTime = endMinutes < startMinutes
+          ? formatTime(end) + ' (next day)'
+          : formatTime(end);
+        return startTime + '–' + endTime;
+      }
+
+      function renderEvents(events) {
+        const container = document.getElementById('eventsContainer');
+        container.innerHTML = '';
+
+        // Group events by day
+        const eventsByDay = {};
+        events.forEach(event => {
+          const day = event.day;
+          if (!eventsByDay[day]) eventsByDay[day] = [];
+          eventsByDay[day].push(event);
+        });
+
+        // Render each day group in order
+        Object.keys(dayOrder).forEach(dayKey => {
+          if (!eventsByDay[dayKey]) return;
+
+          const dayGroup = document.createElement('div');
+          dayGroup.className = 'day-group';
+
+          const dayHeading = document.createElement('h2');
+          dayHeading.textContent = dayLabels[dayKey] || dayKey;
+          dayGroup.appendChild(dayHeading);
+
+          eventsByDay[dayKey].forEach(event => {
+            const eventItem = document.createElement('div');
+            eventItem.className = 'event-item';
+
+            const title = document.createElement('h3');
+            title.textContent = event.title + (event.official ? ' (official event)' : '');
+            eventItem.appendChild(title);
+
+            const time = document.createElement('div');
+            time.className = 'time';
+            time.textContent = formatTimeRange(event.start, event.end);
+            eventItem.appendChild(time);
+
+            const venue = document.createElement('p');
+            venue.className = 'venue';
+            venue.textContent = event.venue;
+            eventItem.appendChild(venue);
+
+            if (typeof event.ticket === 'number' && !isNaN(event.ticket)) {
+              const ticket = document.createElement('div');
+              ticket.className = 'ticket';
+              ticket.textContent = 'Ticket required: £' + event.ticket.toFixed(2);
+              eventItem.appendChild(ticket);
+            }
+
+            dayGroup.appendChild(eventItem);
+          });
+
+          container.appendChild(dayGroup);
+        });
+
+        if (events.length === 0) {
+          container.innerHTML = '<p class="no-events">No events found.</p>';
+        }
+      }
+
+      loadVenueFiles()
+        .then(renderEvents)
+        .catch(err => {
+          document.getElementById('eventsContainer').innerHTML = 
+            '<p class="no-events">Error loading events: ' + err.message + '</p>';
+        });
+    </script>
+  </body>
+</html>

@@ -29,38 +29,67 @@
         padding: 24px;
       }
 
-      header {
+      .nav-link {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+
+      .nav-link:hover {
+        background: rgba(255,255,255,0.08);
+      }
+
+      /* Header container - centered layout */
+      .header-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
         margin-bottom: 24px;
       }
 
-      h1 { margin: 0 0 8px; font-size: 2rem; }
-      p { color: var(--muted); }
-
-      .header-row {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 12px;
-      }
-
-      .header-text {
-        text-align: right;
-      }
-
-      .header-text h1 {
-        margin: 0 0 6px;
-      }
-
-      .header-text p {
-        margin: 2px 0;
-      }
-
       .logo {
-        height: 200px;
-        width: auto;
+        height: 150px;
+        width: 150px;
         flex-shrink: 0;
         object-fit: contain;
+      }
+
+      .header-title {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .nav-bar {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-link {
+        display: inline-block;
+        padding: 8px 16px;
         border-radius: 8px;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+
+      .nav-link:hover {
+        background: rgba(255,255,255,0.08);
+      }
+
+      .nav-link.active {
+        background: var(--accent);
+        color: white;
       }
 
       .filters {
@@ -477,19 +506,17 @@
     </style>
   </head>
   <body>
-    <div class="page">
-      <header>
-        <div class="header-row">
-          <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
-          <div class="header-text">
-            <h1>Manchester Pride Events 2026 (Unofficial)</h1>
-            <p>An unofficial webpage to try and pull all venue events into one place to help navigate Manchester Pride 2026 .</p>
-            <p>Where we are unsure of details, we have provided the best guess/information we have e.g. not all start/finish times are listed.</p>
-            <p>Events will likely change during the event, or run early/late, please don't rely on this exclusively.</p>
-          </div>
-        </div>
-      </header>
+    <div class="header-row">
+      <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
+      <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
+      <div class="nav-bar">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="accessible.html" class="nav-link">Accessible Version</a>
+      </div>
+    </div>
 
+    <div class="page">
       <div class="filters" id="venueFilters"></div>
       <div class="timeline-view" id="timeline"></div>
       <div class="status" id="status">Loading events…</div>

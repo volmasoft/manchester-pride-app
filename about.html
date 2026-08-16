@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Manchester Pride Events 2026 (Unofficial)</title>
+    <style>
+      :root {
+        --bg: #111827;
+        --panel: #1f2937;
+        --panel-alt: #374151;
+        --text: #f9fafb;
+        --muted: #9ca3af;
+        --accent: #ec4899;
+        --accent-2: #8b5cf6;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: linear-gradient(135deg, #111827, #1f2937);
+        color: var(--text);
+      }
+
+      .page {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      /* Header container - centered layout */
+      .header-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .logo {
+        height: 150px;
+        width: 150px;
+        flex-shrink: 0;
+        object-fit: contain;
+      }
+
+      .header-title {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .nav-bar {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-link {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: var(--text);
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+
+      .nav-link:hover {
+        background: rgba(255,255,255,0.08);
+      }
+
+      .nav-link.active {
+        background: var(--accent);
+        color: white;
+      }
+
+      .about-content {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 24px;
+      }
+
+      .about-content h1 {
+        margin-top: 0;
+        font-size: 1.8rem;
+        color: var(--accent);
+      }
+
+      .about-content h2 {
+        margin: 24px 0 12px;
+        font-size: 1.3rem;
+        color: var(--text);
+      }
+
+      .about-content p {
+        line-height: 1.6;
+        color: var(--text);
+        margin: 12px 0;
+      }
+
+      .about-content ul {
+        padding-left: 24px;
+      }
+
+      .about-content li {
+        margin: 8px 0;
+      }
+
+      .about-content a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .about-content a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-row">
+      <img src="image/logo.png" alt="Manchester Pride logo" class="logo" />
+      <h1 class="header-title">Manchester Pride Events 2026 (Unofficial)</h1>
+      <div class="nav-bar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="accessible.html" class="nav-link">Accessible Version</a>
+      </div>
+    </div>
+
+    <div class="page">
+      <article class="about-content">
+        <h1>About This Application</h1>
+        
+        <p>This is an unofficial application for Manchester Pride 2026 events. 
+        It aims to consolidate events from various venue websites into one convenient 
+        location to help attendees navigate the festival.</p>
+
+        <h2>Features</h2>
+        <ul>
+          <li><strong>Event Timeline:</strong> View all events organized by day and time</li>
+          <li><strong>Venue Selection:</strong> Filter events by venue, e.g. perhaps you prefer to go to some venues or avoid others.</li>
+          <li><strong>Ticket Status:</strong> We've tried to make it easier to know which events require a ticket or are free.</li>
+          <li><strong>Event Details:</strong> Click on any event for more information</li>
+          <li><strong>Accessible Version:</strong> A simpler list format for easier reading</li>
+        </ul>
+
+        <h2>Accessibility</h2>
+        <p>We've tried to make this application accessible, and also provide an "Accessible Version" page which has no filters and is a plain listing.</p>
+        <p>Whilst this is a free effort, if you identify any accessibility issues please highlight them and we will try and fix them if we have time.</p>
+
+        <h2>Disclaimer</h2>
+        <p>This is an unofficial project and therefore some additional things should be taken into account
+          <ul>
+            <li><strong>Unofficial status:</strong> We are not affiliated with Manchester Pride or any of the venues listed.</li>
+            <li><strong>Data accuracy:</strong> Information is gathered from publicly available sources and may not be complete or accurate.</li>
+            <li><strong>Event details, times, and availability:</strong> These may change during the festival. Please verify information with official sources when possible.</li>
+            <li><strong>Responsibility:</strong> We are not responsible for any inaccuracies or changes that may occur.</li>
+          </ul>
+        </p>
+
+        <h2>Contact</h2>
+        <p>We are currently setting up an e-mail for enquiries.</p>
+      </article>
+    </div>
+  </body>
+</html>
