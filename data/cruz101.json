@@ -4,11 +4,39 @@
     "color": "linear-gradient(135deg, #db2777 0%, #ec4899 45%, #f9a8d4 100%)",
     "events": [
         {
-            "title": "NO EVENTS LISTED",
-            "day": "wednesday",
-            "start": "08:00",
-            "end": "09:00",
-            "description": "NO EVENTS LISTED"
+            "title": "All loads lead to.. CRUZ101",
+            "day": "thursday",
+            "start": "11:00",
+            "end": "06:00",
+            "description": "MEGAN MARTINI // ANGEL PINKS // LAILA VAN HELSING // DJ STEPHEN NICHOLLS"
+        },
+        {
+            "title": "All loads lead to.. CRUZ101",
+            "day": "friday",
+            "start": "10:30",
+            "end": "08:00",
+            "description": "Feat JNE (CLUBLAND PA) // DJ ITK // ALLIE // STACEY FOX // LEWIS SAUNDERSON // CHARLES PHILPOT // DJ NIK DENTON // DJ LUKE LUCENT // DJ NICK CHARLES // DJ NEIL ANDREW"
+        },
+        {
+            "title": "All loads lead to.. CRUZ101",
+            "day": "saturday",
+            "start": "10:30",
+            "end": "10:00",
+            "description": "Feat Live PA CARLA MONROE // BONNIE ANN CLYDE // VIN DICKTIV // XA'SCARLETT BABY // GISELE // DJ CRAIG LAW // DJ STEPHEN NICHOLLS // DJ JAMES BOWERS // LEWIS SAUNDERSON // STACEY FOX // ANTON AMOR // RICARDO PRINCE // DJ DAVE COOPER // DJ DANNY PHILLIPS // CADEN MAIDEN / RYLEE JAY // DJ BEN HUGHES // DJ MARK ARMITAGE // DJ BAD INFLUENCE"
+        },
+        {
+            "title": "All loads lead to.. CRUZ101",
+            "day": "sunday",
+            "start": "10:30",
+            "end": "10:00",
+            "description": "Feat DJs SHARP BOYS // XA'SCARLETT BABY // AURORA KWEEN // ANTON AMOR // RICARDO PRINCE // RYLEE JAY // CAYDEN MAIDEN // GINGER PUP // SHANNON DIVINE // DJ NIK DENTON // DJ SHAUN WILD // DJ STEPHEN NICHOLLS // DJ ROSS HOMSON // VIN DICKTIV // DJ SAM LONDT // DJ DAN WALKER // DJ LUKE LUCENT"
+        },
+        {
+            "title": "All loads lead to.. CRUZ101",
+            "day": "monday",
+            "start": "10:30",
+            "end": "06:00",
+            "description": "DJS LUKE LUCENT & NICK CHARLES"
         }
     ],
     "address": "101 Princess Street, Manchester, M1 6DD",
