@@ -1,0 +1,14 @@
+{
+  "venue": "Richmond Tea Rooms",
+  "url": "https://richmondtearooms.com/",
+  "color": "linear-gradient(135deg, #7f1d1d 0%, #b91c1c 45%, #fecaca 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

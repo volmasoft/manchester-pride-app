@@ -1,0 +1,92 @@
+{
+  "venue": "The Cockatoo Club",
+  "url": "https://www.example.com/cockatoo-club",
+  "color": "linear-gradient(135deg, #312e81 0%, #4f46e5 45%, #a78bfa 100%)",
+  "events": [
+    {
+      "title": "Thursday Cabaret with Letitia Delish",
+      "day": "thursday",
+      "start": "22:00",
+      "end": "02:00",
+      "description": "Following straight on from Lola's quiz, DJ Davey will be kick-starting Manchester Village Pride at The Cockatoo Club a day early and will be joined by the filthiest queen on the circuit - Miss Letitia Delish!."
+    },
+    {
+      "title": "Friday Cabaret with Snow White Trash",
+      "day": "friday",
+      "start": "19:00",
+      "end": "20:30",
+      "description": "As the Manchester Village Pride party gets underway, The Cockatoo Club welcomes the most musical of queens, the fabulous Snow White Trash to our stage!."
+    },
+    {
+      "title": "Can't Stop The Pop Club Night",
+      "day": "friday",
+      "start": "20:30",
+      "end": "00:00",
+      "description": "Can't Stop The Pop Club Night with DJ Shaun Kitchener and performance from Natalie Powers of Scooch!."
+    },
+    {
+      "title": "Saturday Afternoon Cabaret with Mary Golds",
+      "day": "saturday",
+      "start": "15:15",
+      "end": "18:00",
+      "description": "Is it a drink or a shot? The Baroness Mary Golds joins DJ Davey at The Cockatoo Club for a Pride Saturday afternoon of chit-chat, nonsense and general hilarity!."
+    },
+    {
+      "title": "Saturday Early Evening Cabaret with Fanny Burns",
+      "day": "saturday",
+      "start": "18:00",
+      "end": "20:00",
+      "description": "We've a Pride Saturday treat for you - when Cockatoo favourite and general gutter mouth Fanny Burns joins DJ Davey for an early evening session of song, comedy and banter!."
+    },
+    {
+      "title": "Saturday Evening Cabaret with Gigi Spot",
+      "day": "Saturday",
+      "start": "20:00",
+      "end": "22:00",
+      "description": "Drag sensation Gigi Spot joins DJ Davey for an Manchester Village Pride evening of cabaret gold on Saturday 29th August. Expect loud and proud sing-a-longs all in the best possible taste!."
+    },
+    {
+      "title": "Saturday Night Cabaret with KY Kelly",
+      "day": "saturday",
+      "start": "22:00",
+      "end": "00:00",
+      "description": "A legend of Manchester cabaret - KY Kelly joins DJ Davey for our Saturday night serving of Hi-NRG cabaret this Manchester Village Pride Weekend.."
+    },
+    {
+      "title": "Sunday Afternoon Cabaret with Martha D'Arthur",
+      "day": "sunday",
+      "start": "16:00",
+      "end": "18:00",
+      "description": "The self-titled 'Nicest queen on the circuit' - Martha D'Arthur is our Sunday afternoon turn this Manchester Village Pride weekend. Expect posh raps, parodies and playful chat in equal measure."
+    },
+    {
+      "title": "Sunday Early Evening Cabaret with Sheila Diamond",
+      "day": "thursday",
+      "start": "18:00",
+      "end": "20:00",
+      "description": "We've a Cockatoo Club debut for you all this Manchester Village Pride Weekend! The incredible Sheila Diamond will be joining DJ Poni on Sunday 30th August from 6pm!."
+    },
+    {
+      "title": "Sunday Evening Cabaret with Karla Bear",
+      "day": "sunday",
+      "start": "20:00",
+      "end": "22:00",
+      "description": "Drag Idol Winner Karla Bear joins DJ Poni and serves up your Manchester Village Pride Sunday evening cabaret session. Not for the faint of heart, expect songs and smut throughout."
+    },
+    {
+      "title": "Sunday Night Cabaret with Gladys Duffy",
+      "day": "sunday",
+      "start": "22:00",
+      "end": "23:59",
+      "description": "The infamous Gladys Duffy returns home to The Cockatoo Club in our Manchester Village Pride weekend legends spot from 10pm on Sunday 30th August! They'll be topical banter galore from the queen with the sharpest wit on the circuit!."
+    },
+    {
+      "title": "Sing-on-Monday with Vivienne Lynsey",
+      "day": "monday",
+      "start": "16:00",
+      "end": "19:00",
+      "description": "As is tradition, The Cockatoo's weekly staple event moves to it's Monday evening slot over Manchester Village Pride weekend. Vivienne Lynsey is back too for one week only. and the whole thing kicks off from 4pm on the nose with DJ Poni."
+    }
+
+  ]
+}

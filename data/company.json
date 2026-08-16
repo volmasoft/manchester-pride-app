@@ -1,0 +1,14 @@
+{
+  "venue": "Company Bar",
+  "url": "https://companybar.co.uk/",
+  "color": "linear-gradient(135deg, #ca8a04 0%, #eab308 45%, #fef08a 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

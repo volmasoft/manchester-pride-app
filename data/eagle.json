@@ -1,0 +1,107 @@
+{
+  "venue": "Eagle",
+  "url": "https://www.example.com/eagle",
+  "color": "linear-gradient(135deg, #312e81 0%, #4f46e5 45%, #a78bfa 100%)",
+  "events": [
+    {
+      "title": "Haus of Dorothy",
+      "day": "wednesday",
+      "start": "23:00",
+      "end": "02:00",
+      "description": "Pre-Pride party for friends of eagle! £5 doubles all night (house vodka, gin & rum only."
+    },
+    {
+      "title": "Launch Party",
+      "day": "thursday",
+      "start": "20:00",
+      "end": "22:30",
+      "description": "Launch Party with Drag With No Name and Gladys Duffy"
+    },
+    {
+      "title": "Hellbent - Eagle's Manchester Village Pride Opening Party",
+      "day": "thursday",
+      "start": "23:00",
+      "end": "06:00",
+      "ticket": 8.00,
+      "description": "Mixed fetish dress code: Rubber, Pup, Leather, Skin, Uniform, Lycra, Worker, scally."
+    },
+    {
+      "title": "Eagle Outside Stage",
+      "day": "friday",
+      "start": "17:00",
+      "end": "23:00",
+      "description": "Hosted by Misty Change & Miss Penny. Featuring Alison Jiear, Natalie Powers (Scooch), Donna Marie as Lady Gaga, Shania Pain, Mary Golds, DJ Davey."
+    },
+    {
+      "title": "Follow the yellow brick load",
+      "day": "friday",
+      "start": "23:00",
+      "end": "08:00",
+      "description": "Pride friday, free entry, fetish wear encouraged."
+    },
+    {
+      "title": "Eagle Outside Stage",
+      "day": "saturday",
+      "start": "14:00",
+      "end": "23:00",
+      "description": "Hosted by Miss Penny, featuring performacnes from Michael Marouli, Gigi Spot, Betty Thunderthighs (2026 drag idol winner), Snow White Trash, KY Kelly, Sabrina Carpenter Tribute, Davey Stuart, Fanny Burns with DJ Portia Parker."
+    },
+    {
+      "title": "Saturday Service",
+      "day": "saturday",
+      "start": "14:30",
+      "end": "20:00",
+      "description": "Hosted by Gladys Duffy featuring DE Experience, KY Kelly, Dolly Diamond, DJ Callum Parr."
+    },
+    {
+      "title": "If I Only Had A Harness",
+      "day": "saturday",
+      "start": "23:00",
+      "end": "08:00",
+      "description": "If you're still going strong and ready for night 3 of Manchester Village Pride then look further than Eagle! DJ's Robbie Edwards and Roger Da Silva are on hand all the way thru until 8am playing the beat to your Pride Saturday night."
+    },
+    {
+      "title": "Eagle Outside Stage",
+      "day": "sunday",
+      "start": "14:00",
+      "end": "23:00",
+      "description": "Hosted by Miss Penny, featuring performances from Absolute Britney, Gladys Duffy, Patrick Saint James, Karla Bear, Kyle Finn, Lola Lasange, Martha D'Arthur, Belinda Scandal."
+    },
+    {
+      "title": "Sunday Service",
+      "day": "sunday",
+      "start": "15:00",
+      "end": "20:00",
+      "description": "Hosted by Gladys Duffy, featuring performances from Shania Pain, Lady Imelda, Lola Lasange."
+    },
+    {
+      "title": "Lions, Daddies & Bears. Oh My!",
+      "day": "sunday",
+      "start": "23:00",
+      "end": "08:00",
+      "description": "You can't reach Bank Holiday Monday without passing through Sunday. And the only route is via the emerald Eagle, so get ready for the darkest night of fantasy this side of Oz!."
+    },
+    {
+      "title": "Eagle Outside Stage",
+      "day": "monday",
+      "start": "14:00",
+      "end": "23:00",
+      "description": "You can't reach Bank Holiday Monday without passing through Sunday. And the only route is via the emerald Eagle, so get ready for the darkest night of fantasy this side of Oz!."
+    },
+    {
+      "title": "Monday Service",
+      "day": "monday",
+      "start": "14:30",
+      "end": "20:00",
+      "description": "You can't reach Bank Holiday Monday without passing through Sunday. And the only route is via the emerald Eagle, so get ready for the darkest night of fantasy this side of Oz!."
+    },
+    {
+      "title": "Closing party (After Vigil)",
+      "day": "monday",
+      "start": "21:00",
+      "end": "23:00",
+      "description": "Closing Party with Louisa Johnson, Mary Mac and Michael Marouli hosted by Gladys Duffy."
+    }
+
+  ]
+}

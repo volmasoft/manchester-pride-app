@@ -1,0 +1,14 @@
+{
+  "venue": "EVA Manchester",
+  "url": "https://evamanchester.com/",
+  "color": "linear-gradient(135deg, #f5d447 0%, #facc15 45%, #fef3c7 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

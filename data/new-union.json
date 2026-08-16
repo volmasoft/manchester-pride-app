@@ -1,0 +1,14 @@
+{
+  "venue": "New Union Hotel",
+  "url": "https://newunionhotel.co.uk/",
+  "color": "linear-gradient(135deg, #0891b2 0%, #06b6d1 45%, #a7f3d0 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

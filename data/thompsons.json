@@ -1,0 +1,14 @@
+{
+  "venue": "The Thompsons Arms",
+  "url": "https://www.instagram.com/thompsonsarms_mcr",
+  "color": "linear-gradient(135deg, #92400e 0%, #d97706 45%, #fde68a 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

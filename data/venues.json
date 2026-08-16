@@ -1,0 +1,31 @@
+{
+  "venues": [
+    "data/barpop.json",
+    "data/brewers.json",
+    "data/centre-stage.json",
+    "data/church.json",
+    "data/cockatoo-club.json",
+    "data/company.json",
+    "data/cruz101.json",
+    "data/dancearena.json",
+    "data/eagle.json",
+    "data/eva.json",
+    "data/gay.json",
+    "data/goose.json",
+    "data/iconic.json",
+    "data/mainstage.json",
+    "data/mollyhouse.json",
+    "data/new-union.json",
+    "data/nyny.json",
+    "data/onbar.json",
+    "data/oscars.json",
+    "data/rem.json",
+    "data/richmond-tea-room.json",
+    "data/sackvillegardens.json",
+    "data/the-lodge.json",
+    "data/thompsons.json",
+    "data/vanilla.json",
+    "data/velvet.json",
+    "data/via.json"
+  ]
+}

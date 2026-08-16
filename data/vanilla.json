@@ -1,0 +1,14 @@
+{
+  "venue": "Vanilla",
+  "url": "https://www.instagram.com/vanillagirlsmcr",
+  "color": "linear-gradient(135deg, #5b21b6 0%, #8b5cf6 45%, #ddd6fe 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

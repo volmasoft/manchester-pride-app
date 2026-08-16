@@ -1,0 +1,14 @@
+{
+  "venue": "Centre Stage",
+  "url": "https://www.instagram.com/centre_stage_mcr/?hl=en-gb",
+  "color": "linear-gradient(135deg, #be185d 0%, #ec4899 45%, #fb7185 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

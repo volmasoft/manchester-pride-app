@@ -1,0 +1,15 @@
+{
+  "venue": "Main stage",
+  "url": "https://www.manchestervillagepride.org/",
+  "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
+  "official": true,
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

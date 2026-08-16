@@ -1,0 +1,14 @@
+{
+  "venue": "Velvet",
+  "url": "https://www.velvetmanchester.com/",
+  "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}

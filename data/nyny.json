@@ -1,0 +1,13 @@
+{
+  "venue": "New York New York",
+  "url": "https://www.newyorknewyorkbar.com/",
+  "color": "linear-gradient(135deg, #3b0764 0%, #7c3aed 45%, #f5d0fe 100%)",
+  "events": [
+    {
+      "title": "It's a gay knockout",
+      "day": "Thursday",
+      "start": "18:00",
+      "end": "22:00"
+    }
+  ]
+}

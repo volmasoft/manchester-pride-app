@@ -1,0 +1,14 @@
+{
+  "venue": "The Goose",
+  "url": "http://thegoose.pub/",
+  "color": "linear-gradient(135deg, #b45309 0%, #f59e0b 45%, #fde68a 100%)",
+  "events": [
+    {
+      "title": "TEST",
+      "day": "thursday",
+      "start": "08:00",
+      "end": "20:00",
+      "description": "TEST."
+    }
+  ]
+}
