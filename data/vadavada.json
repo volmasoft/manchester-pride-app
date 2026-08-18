@@ -6,11 +6,26 @@
     "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
     "events": [
         {
+            "title": "Teddy's retirement party",
+            "day": "friday",
+            "start": "16:00",
+            "end": "22:00",
+            "ticket": 10.00,
+            "description": "Pride-Friday queer party at Vada Vada."
+        },
+        {
             "title": "Clocking in for pride",
             "day": "friday",
             "start": "22:00",
             "end": "00:00",
             "description": "Pride night party at vada vada running until 'late'"
+        },
+        {
+            "title": "Bottomless Pizza & Cocktails",
+            "day": "saturday",
+            "start": "12:30",
+            "end": "14:30",
+            "description": "Bottomless pizza and cocktails at Vada Vada."
         }
     ]
 }
