@@ -6,11 +6,25 @@
     "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
     "events": [
         {
-            "title": "NO EVENTS LISTED",
-            "day": "wednesday",
-            "start": "08:00",
-            "end": "09:00",
-            "description": "NO EVENTS LISTED"
+            "title": "Honey's Bar",
+            "day": "friday",
+            "start": "18:00",
+            "end": "03:00",
+            "description": "Velvet turns 30! Honey's fabulous Bar take over!"
+        },
+        {
+            "title": "House of Kooky",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "03:00",
+            "description": "Kooky returns for hte ultimate house/disco party"
+        },
+        {
+            "title": "House of Kooky",
+            "day": "sunday",
+            "start": "22:00",
+            "end": "03:00",
+            "description": "Kooky returns for hte ultimate house/disco party"
         }
     ]
 }
