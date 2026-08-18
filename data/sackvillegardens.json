@@ -6,11 +6,11 @@
     "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
     "events": [
         {
-            "title": "NO EVENTS LISTED",
+            "title": "NO EVENTS LOADED YET",
             "day": "wednesday",
             "start": "08:00",
             "end": "10:00",
-            "description": "NO EVENTS LISTED"
+            "description": "NO EVENTS LOADED YET"
         }
     ],
     "official": true

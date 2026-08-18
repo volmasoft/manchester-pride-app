@@ -10,7 +10,7 @@
             "day": "friday",
             "start": "16:00",
             "end": "22:00",
-            "ticket": 10.00,
+            "ticket": 10.0,
             "description": "Pride-Friday queer party at Vada Vada."
         },
         {
