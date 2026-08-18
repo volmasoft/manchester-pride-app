@@ -6,11 +6,18 @@
     "color": "linear-gradient(135deg, #9a3412 0%, #ea580c 45%, #fed7aa 100%)",
     "events": [
         {
-            "title": "NO EVENTS LISTED",
-            "day": "wednesday",
-            "start": "08:00",
-            "end": "09:00",
-            "description": "NO EVENTS LISTED"
+            "title": "Vivienne Lynsey",
+            "day": "thursday",
+            "start": "21:00",
+            "end": "00:00",
+            "description": "Pride opening party with Vivienne Lynsey"
+        },
+        {
+            "title": "Rob Bowden King",
+            "day": "monday",
+            "start": "21:00",
+            "end": "00:00",
+            "description": "Pride closing party with Rob Bowden King"
         }
     ]
 }
