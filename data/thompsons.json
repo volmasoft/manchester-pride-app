@@ -1,6 +1,8 @@
 {
     "venue": "The Thompsons Arms",
     "url": "https://www.instagram.com/thompsonsarms_mcr",
+    "address": "23 Sackville Street, Manchester, M1 3LZ",
+    "mapsUrl": "https://www.google.com/maps?q=Thompsons+Arms,+23+Sackville+Street,+Manchester+M1+3LZ",
     "color": "linear-gradient(135deg, #92400e 0%, #d97706 45%, #fde68a 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "23 Sackville Street, Manchester, M1 3LZ",
-    "mapsUrl": "https://www.google.com/maps?q=Thompsons+Arms,+23+Sackville+Street,+Manchester+M1+3LZ"
+    ]
 }

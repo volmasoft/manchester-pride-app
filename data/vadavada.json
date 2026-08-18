@@ -1,0 +1,16 @@
+{
+    "venue": "Vada Vada",
+    "url": "https://vadavada.co.uk/",
+    "address": "7-9 New Wakefield Street, Manchester, M1 5NP",
+    "mapsUrl": "https://www.google.com/maps?q=7-9+New+Wakefield+Street,+Manchester+M1+5NP",
+    "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
+    "events": [
+        {
+            "title": "Clocking in for pride",
+            "day": "friday",
+            "start": "22:00",
+            "end": "00:00",
+            "description": "Pride night party at vada vada running until 'late'"
+        }
+    ]
+}

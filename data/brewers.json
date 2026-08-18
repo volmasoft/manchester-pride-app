@@ -1,6 +1,8 @@
 {
     "venue": "The Brewers",
     "url": "https://www.thebrewersmanchester.co.uk/venue",
+    "address": "4 Canal Street, Manchester, M1 3HE",
+    "mapsUrl": "https://www.google.com/maps?q=4+Canal+Street,+Manchester+M1+3HE",
     "color": "linear-gradient(135deg, #0d9488 0%, #0ea5e9 45%, #93c5fd 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "4 Canal Street, Manchester, M1 3HE",
-    "mapsUrl": "https://www.google.com/maps?q=4+Canal+Street,+Manchester+M1+3HE"
+    ]
 }

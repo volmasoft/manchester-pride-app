@@ -1,8 +1,9 @@
 {
     "venue": "Dance arena",
     "url": "https://www.manchestervillagepride.org/",
+    "address": "Fmr National Express Bus Station, Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://maps.app.goo.gl/HDkvpES2Kd2jGtL87",
     "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
-    "official": true,
     "events": [
         {
             "title": "NO EVENTS LISTED",
@@ -12,6 +13,5 @@
             "description": "NO EVENTS LISTED"
         }
     ],
-    "address": "Fmr National Express Bus Station, Bloom St, Manchester M1 3LY",
-    "mapsUrl": "https://maps.app.goo.gl/HDkvpES2Kd2jGtL87"
+    "official": true
 }

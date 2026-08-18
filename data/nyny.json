@@ -1,6 +1,8 @@
 {
     "venue": "New York New York",
     "url": "https://www.newyorknewyorkbar.com/",
+    "address": "94-98 Bloom Street, Manchester, M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=94-98+Bloom+Street,+Manchester+M1+3LY",
     "color": "linear-gradient(135deg, #3b0764 0%, #7c3aed 45%, #f5d0fe 100%)",
     "events": [
         {
@@ -9,7 +11,5 @@
             "start": "18:00",
             "end": "22:00"
         }
-    ],
-    "address": "94-98 Bloom Street, Manchester, M1 3LY",
-    "mapsUrl": "https://www.google.com/maps?q=94-98+Bloom+Street,+Manchester+M1+3LY"
+    ]
 }

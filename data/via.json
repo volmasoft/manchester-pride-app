@@ -1,6 +1,8 @@
 {
     "venue": "Via",
     "url": "https://www.viamanchester.co.uk/manchester/pride-events#events",
+    "address": "28-30 Canal Street, Manchester, M1 3EZ",
+    "mapsUrl": "https://www.google.com/maps?q=28-30+Canal+Street,+Manchester+M1+3EZ",
     "color": "linear-gradient(135deg, #78350f 0%, #a16207 45%, #fde047 100%)",
     "events": [
         {
@@ -39,7 +41,5 @@
             "end": "00:00",
             "description": "A closing-night performance celebrating the final day of the festival with a special show."
         }
-    ],
-    "address": "28-30 Canal Street, Manchester, M1 3EZ",
-    "mapsUrl": "https://www.google.com/maps?q=28-30+Canal+Street,+Manchester+M1+3EZ"
+    ]
 }

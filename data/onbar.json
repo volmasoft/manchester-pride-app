@@ -1,16 +1,93 @@
 {
     "venue": "ON Bar",
     "url": "https://www.instagram.com/onbarmanchester",
+    "address": "46 Canal St, Manchester M1 3WD",
+    "mapsUrl": "https://www.google.com/maps?q=46+Canal+St,+Manchester+M1+3WD",
     "color": "linear-gradient(135deg, #1e40af 0%, #3b82f6 45%, #bfdbfe 100%)",
     "events": [
         {
-            "title": "NO EVENTS LISTED",
-            "day": "wednesday",
-            "start": "08:00",
-            "end": "09:00",
-            "description": "NO EVENTS LISTED"
+            "title": "FORBID",
+            "day": "friday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "Opening party"
+        },
+        {
+            "title": "Peter Bailey",
+            "day": "friday",
+            "start": "20:00",
+            "end": "23:00",
+            "description": "Opening party"
+        },
+        {
+            "title": "Dave Cooper",
+            "day": "saturday",
+            "start": "14:00",
+            "end": "16:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "FORBID B2B TWOCCA",
+            "day": "saturday",
+            "start": "16:00",
+            "end": "18:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "DULLAGE",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "Josh Smith",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "23:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "Wiles",
+            "day": "sunday",
+            "start": "14:00",
+            "end": "16:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "Dave Cooper",
+            "day": "sunday",
+            "start": "16:00",
+            "end": "18:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "Josh Smith",
+            "day": "sunday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "Scott Hilton",
+            "day": "sunday",
+            "start": "20:00",
+            "end": "23:00",
+            "description": "ON Bar street party"
+        },
+        {
+            "title": "ON bar street party",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "23:00",
+            "description": "BLAZED X NAYHEM are taking over our Manchester Village Pride Street Party on Saturday 29th August from 8pm - 11pm!"
+        },
+        {
+            "title": "The cabaret buffet",
+            "day": "monday",
+            "start": "14:00",
+            "end": "19:00",
+            "description": "Sam buttery, Iris Effect, Royal Serenity, Stelia Jobs, Plastiq, Wolfy, Luna, Carmen Sutra, Georgia Diamond, Deena Hearts, Dany Diamond, Kerry Mibagg"
         }
-    ],
-    "address": "46 Canal St, Manchester M1 3WD",
-    "mapsUrl": "https://www.google.com/maps?q=46+Canal+St,+Manchester+M1+3WD"
+    ]
 }

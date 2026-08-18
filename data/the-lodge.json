@@ -1,6 +1,8 @@
 {
     "venue": "The Lodge",
     "url": "https://www.lodgemanchester.co.uk/",
+    "address": "23 Richmond Street, Manchester, M1 3HZ",
+    "mapsUrl": "https://www.google.com/maps?q=23+Richmond+Street,+Manchester+M1+3HZ",
     "color": "linear-gradient(135deg, #312e81 0%, #4f46e5 45%, #a78bfa 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "23 Richmond Street, Manchester, M1 3HZ",
-    "mapsUrl": "https://www.google.com/maps?q=23+Richmond+Street,+Manchester+M1+3HZ"
+    ]
 }

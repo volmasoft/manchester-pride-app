@@ -1,6 +1,8 @@
 {
     "venue": "Vanilla",
     "url": "https://www.instagram.com/vanillagirlsmcr",
+    "address": "39-41 Richmond Street, Manchester, M1 3WB",
+    "mapsUrl": "https://www.google.com/maps?q=39-41+Richmond+Street,+Manchester+M1+3WB",
     "color": "linear-gradient(135deg, #5b21b6 0%, #8b5cf6 45%, #ddd6fe 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "39-41 Richmond Street, Manchester, M1 3WB",
-    "mapsUrl": "https://www.google.com/maps?q=39-41+Richmond+Street,+Manchester+M1+3WB"
+    ]
 }

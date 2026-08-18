@@ -1,6 +1,8 @@
 {
     "venue": "New Union Hotel",
     "url": "https://newunionhotel.co.uk/",
+    "address": "111 Princess Street, Manchester, M1 6JB",
+    "mapsUrl": "https://www.google.com/maps?q=111+Princess+Street,+Manchester+M1+6JB",
     "color": "linear-gradient(135deg, #0891b2 0%, #06b6d1 45%, #a7f3d0 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "111 Princess Street, Manchester, M1 6JB",
-    "mapsUrl": "https://www.google.com/maps?q=111+Princess+Street,+Manchester+M1+6JB"
+    ]
 }

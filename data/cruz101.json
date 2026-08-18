@@ -1,6 +1,8 @@
 {
     "venue": "Cruz 101",
     "url": "https://www.instagram.com/cruz101official",
+    "address": "101 Princess Street, Manchester, M1 6DD",
+    "mapsUrl": "https://www.google.com/maps?q=101+Princess+Street,+Manchester+M1+6DD",
     "color": "linear-gradient(135deg, #db2777 0%, #ec4899 45%, #f9a8d4 100%)",
     "events": [
         {
@@ -38,7 +40,5 @@
             "end": "06:00",
             "description": "DJS LUKE LUCENT & NICK CHARLES"
         }
-    ],
-    "address": "101 Princess Street, Manchester, M1 6DD",
-    "mapsUrl": "https://www.google.com/maps?q=101+Princess+Street,+Manchester+M1+6DD"
+    ]
 }

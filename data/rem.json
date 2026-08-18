@@ -1,6 +1,8 @@
 {
     "venue": "REM Bar",
     "url": "https://www.therembrandtmanchester.com/",
+    "address": "33 Sackville Street, Manchester, M1 3LZ",
+    "mapsUrl": "https://www.google.com/maps?q=33+Sackville+Street,+Manchester+M1+3LZ",
     "color": "linear-gradient(135deg, #991b1b 0%, #dc2626 45%, #fecaca 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "33 Sackville Street, Manchester, M1 3LZ",
-    "mapsUrl": "https://www.google.com/maps?q=33+Sackville+Street,+Manchester+M1+3LZ"
+    ]
 }

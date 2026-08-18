@@ -1,6 +1,8 @@
 {
     "venue": "Area Manchester",
     "url": "https://www.areamanchester.net/",
+    "address": "50 Sackville Street, Manchester, M1 3WF",
+    "mapsUrl": "https://www.google.com/maps?q=50+Sackville+Street,+Manchester+M1+3WF",
     "color": "linear-gradient(135deg, #dc2626 0%, #f59e0b 45%, #fbbf24 100%)",
     "events": [
         {
@@ -9,7 +11,7 @@
             "start": "22:00",
             "end": "05:30",
             "description": "Manchester Village Pride Entry to Vanilla ALL WEEKEND!",
-            "ticket": 6.00
+            "ticket": 6.0
         },
         {
             "title": "Laugh Out Proud - Queer Comedy",
@@ -17,7 +19,7 @@
             "start": "19:30",
             "end": "21:30",
             "description": "LAUGH OUT PROUD IS BACK for Manchester Village Pride on Saturday 29th August",
-            "ticket": 6.00
+            "ticket": 6.0
         },
         {
             "title": "VANILLA XXL",
@@ -33,7 +35,7 @@
             "start": "22:00",
             "end": "05:30",
             "description": "One sacred dance floor. One community. One unforgettable Pride night.",
-            "ticket": 9.00
+            "ticket": 9.0
         },
         {
             "title": "VANILLA XXL",
@@ -43,7 +45,5 @@
             "description": "VANILLA XXL - Pride Sunday - Main Room Takeover",
             "ticket": 11.25
         }
-    ],
-    "address": "50 Sackville Street, Manchester, M1 3WF",
-    "mapsUrl": "https://www.google.com/maps?q=50+Sackville+Street,+Manchester+M1+3WF"
+    ]
 }

@@ -1,6 +1,8 @@
 {
     "venue": "G-A-Y Manchester",
     "url": "https://www.instagram.com/gaymanchester",
+    "address": "63 Richmond Street, Manchester, M1 3WB",
+    "mapsUrl": "https://www.google.com/maps?q=63+Richmond+Street,+Manchester+M1+3WB",
     "color": "linear-gradient(135deg, #ad289a 0%, #db2777 45%, #f9a8d4 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "63 Richmond Street, Manchester, M1 3WB",
-    "mapsUrl": "https://www.google.com/maps?q=63+Richmond+Street,+Manchester+M1+3WB"
+    ]
 }

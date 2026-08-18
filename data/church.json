@@ -1,6 +1,8 @@
 {
     "venue": "Church",
     "url": "https://www.thechurchmcr.co.uk/",
+    "address": "37 Chorlton Street, Manchester, M1 3HN",
+    "mapsUrl": "https://www.google.com/maps?q=37+Chorlton+Street,+Manchester+M1+3HN",
     "color": "linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #93c5fd 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "37 Chorlton Street, Manchester, M1 3HN",
-    "mapsUrl": "https://www.google.com/maps?q=37+Chorlton+Street,+Manchester+M1+3HN"
+    ]
 }

@@ -1,6 +1,8 @@
 {
     "venue": "Iconic Bar",
     "url": "https://www.instagram.com/iconicbarmcr",
+    "address": "29 Richmond St, Manchester M1 3NB",
+    "mapsUrl": "https://www.google.com/maps?q=29+Richmond+St,+Manchester+M1+3NB",
     "color": "linear-gradient(135deg, #0ea5e9 0%, #38bdf8 45%, #bae6fd 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "29 Richmond St, Manchester M1 3NB",
-    "mapsUrl": "https://www.google.com/maps?q=29+Richmond+St,+Manchester+M1+3NB"
+    ]
 }

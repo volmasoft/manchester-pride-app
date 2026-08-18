@@ -1,6 +1,8 @@
 {
     "venue": "Eagle",
     "url": "https://www.eaglemanchester.com/",
+    "address": "15 Bloom Street, Richmond House, Manchester, M1 3HZ",
+    "mapsUrl": "https://www.google.com/maps?q=15+Bloom+Street,+Manchester+M1+3HZ",
     "color": "linear-gradient(135deg, #312e81 0%, #4f46e5 45%, #a78bfa 100%)",
     "events": [
         {
@@ -102,7 +104,5 @@
             "end": "23:00",
             "description": "Closing Party with Louisa Johnson, Mary Mac and Michael Marouli hosted by Gladys Duffy."
         }
-    ],
-    "address": "15 Bloom Street, Richmond House, Manchester, M1 3HZ",
-    "mapsUrl": "https://www.google.com/maps?q=15+Bloom+Street,+Manchester+M1+3HZ"
+    ]
 }

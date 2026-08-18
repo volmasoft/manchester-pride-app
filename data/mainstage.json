@@ -1,8 +1,9 @@
 {
     "venue": "Main stage",
     "url": "https://www.manchestervillagepride.org/",
+    "address": "92 Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=92+Bloom+St,+Manchester+M1+3LY",
     "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
-    "official": true,
     "events": [
         {
             "title": "NO EVENTS LISTED",
@@ -12,6 +13,5 @@
             "description": "NO EVENTS LISTED"
         }
     ],
-    "address": "92 Bloom St, Manchester M1 3LY",
-    "mapsUrl": "https://www.google.com/maps?q=92+Bloom+St,+Manchester+M1+3LY"
+    "official": true
 }

@@ -231,7 +231,7 @@
               if (venueData.address) {
                 html += '<p class="venue-info-item">📍 <strong>Address:</strong> ';
                 if (venueData.mapsUrl) {
-                  html += '<a href="' + venueData.mapsUrl + '" target="_blank" rel="noopener noreferrer">' + venueData.address + '</a>';
+                  html += '<a href="' + venueData.mapsUrl + '" target="_blank" rel="noopener noreferrer" class="venue-info-link">' + venueData.address + '</a>';
                 } else {
                   html += venueData.address;
                 }

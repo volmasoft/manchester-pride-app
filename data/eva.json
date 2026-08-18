@@ -1,6 +1,8 @@
 {
     "venue": "EVA Manchester",
     "url": "https://evamanchester.com/",
+    "address": "27 Sackville Street, Manchester, M1 3LZ",
+    "mapsUrl": "https://www.google.com/maps?q=Eva+Manchester,+27+Sackville+Street,+Manchester+M1+3LZ",
     "color": "linear-gradient(135deg, #f5d447 0%, #facc15 45%, #fef3c7 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "27 Sackville Street, Manchester, M1 3LZ",
-    "mapsUrl": "https://www.google.com/maps?q=Eva+Manchester,+27+Sackville+Street,+Manchester+M1+3LZ"
+    ]
 }

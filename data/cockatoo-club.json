@@ -1,6 +1,8 @@
 {
     "venue": "The Cockatoo Club",
     "url": "http://thecockatooclub.co.uk/",
+    "address": "20 Richmond St, Manchester M1 3ND",
+    "mapsUrl": "https://www.google.com/maps?q=Cockatoo+Club,+20+Richmond+St,+Manchester+M1+3ND",
     "color": "linear-gradient(135deg, #312e81 0%, #4f46e5 45%, #a78bfa 100%)",
     "events": [
         {
@@ -87,7 +89,5 @@
             "end": "19:00",
             "description": "As is tradition, The Cockatoo's weekly staple event moves to it's Monday evening slot over Manchester Village Pride weekend. Vivienne Lynsey is back too for one week only. and the whole thing kicks off from 4pm on the nose with DJ Poni."
         }
-    ],
-    "address": "20 Richmond St, Manchester M1 3ND",
-    "mapsUrl": "https://www.google.com/maps?q=Cockatoo+Club,+20+Richmond+St,+Manchester+M1+3ND"
+    ]
 }

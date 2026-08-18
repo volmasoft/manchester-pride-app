@@ -1,6 +1,8 @@
 {
     "venue": "Centre Stage",
     "url": "https://www.instagram.com/centre_stage_mcr/?hl=en-gb",
+    "address": "51 Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=51+Bloom+St,+Manchester+M1+3LY",
     "color": "linear-gradient(135deg, #be185d 0%, #ec4899 45%, #fb7185 100%)",
     "events": [
         {
@@ -10,7 +12,5 @@
             "end": "09:00",
             "description": "NO EVENTS LISTED"
         }
-    ],
-    "address": "51 Bloom St, Manchester M1 3LY",
-    "mapsUrl": "https://www.google.com/maps?q=51+Bloom+St,+Manchester+M1+3LY"
+    ]
 }
