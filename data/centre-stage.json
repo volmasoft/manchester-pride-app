@@ -5,12 +5,5 @@
     "mapsUrl": "https://www.google.com/maps?q=51+Bloom+St,+Manchester+M1+3LY",
     "color": "linear-gradient(135deg, #be185d 0%, #ec4899 45%, #fb7185 100%)",
     "events": [
-        {
-            "title": "NO EVENTS LOADED YET",
-            "day": "wednesday",
-            "start": "08:00",
-            "end": "10:00",
-            "description": "NO EVENTS LOADED YET"
-        }
     ]
 }

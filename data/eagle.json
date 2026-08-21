@@ -9,7 +9,7 @@
             "title": "Haus of Dorothy",
             "day": "wednesday",
             "start": "23:00",
-            "end": "02:00",
+            "end": "03:00",
             "description": "Pre-Pride party for friends of eagle! \u00a35 doubles all night (house vodka, gin & rum only."
         },
         {
@@ -68,6 +68,13 @@
             "start": "14:00",
             "end": "23:00",
             "description": "Hosted by Miss Penny, featuring performances from Absolute Britney, Gladys Duffy, Patrick Saint James, Karla Bear, Kyle Finn, Lola Lasange, Martha D'Arthur, Belinda Scandal."
+        },
+        {
+            "title": "Tonya Kneez",
+            "day": "sunday",
+            "start": "16:25",
+            "end": "17:25",
+            "description": "Tonya Kneez."
         },
         {
             "title": "Sunday Service",

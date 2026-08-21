@@ -76,6 +76,13 @@
             "description": "ON Bar street party"
         },
         {
+            "title": "Tonya Kneez",
+            "day": "sunday",
+            "start": "23:00",
+            "end": "00:00",
+            "description": "Ground floor DJ shift"
+        },
+        {
             "title": "ON bar street party",
             "day": "saturday",
             "start": "20:00",

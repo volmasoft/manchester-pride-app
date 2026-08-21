@@ -895,9 +895,13 @@ textarea:focus {
   color: #ef4444;
 }
 
-/* Day section headers for venue page */
+/* Day section - each day as a single card with events inside */
 .day-section {
-  margin-top: 24px;
+  margin-bottom: 16px;
+  background: var(--panel);
+  border-radius: 12px;
+  border: 1px solid var(--panel-alt);
+  padding: 16px;
 }
 
 .day-header {
@@ -907,6 +911,54 @@ textarea:focus {
   margin-bottom: 12px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--panel-alt);
+}
+
+/* Events within a day section */
+.day-section .events-list {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+/* Event items inside day sections - no box styling */
+.day-section .event-item {
+  padding: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid var(--panel-alt) !important;
+}
+
+.day-section .event-item:last-child {
+  border-bottom: none !important;
+}
+
+.day-section .event-item strong {
+  color: var(--text) !important;
+  font-size: 1.1rem !important;
+}
+
+.day-section .event-item .time {
+  color: var(--muted) !important;
+  font-size: 0.9rem !important;
+}
+
+.day-section .event-item .venue {
+  color: var(--accent) !important;
+  font-weight: 500 !important;
+  margin-top: 4px !important;
+}
+
+.day-section .event-item .description {
+  margin: 8px 0 0 0 !important;
+  color: var(--text-secondary) !important;
+  font-size: 0.95rem !important;
 }
 
 /* Venue link in metrics table */
@@ -1069,9 +1121,13 @@ textarea:focus {
   color: #ef4444;
 }
 
-/* Day section headers for venue page */
+/* Day section - each day as a single card with events inside */
 .day-section {
-  margin-top: 24px;
+  margin-bottom: 16px;
+  background: var(--panel);
+  border-radius: 12px;
+  border: 1px solid var(--panel-alt);
+  padding: 16px;
 }
 
 .day-header {
@@ -1081,6 +1137,54 @@ textarea:focus {
   margin-bottom: 12px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--panel-alt);
+}
+
+/* Events within a day section */
+.day-section .events-list {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+/* Event items inside day sections - no box styling */
+.day-section .event-item {
+  padding: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid var(--panel-alt) !important;
+}
+
+.day-section .event-item:last-child {
+  border-bottom: none !important;
+}
+
+.day-section .event-item strong {
+  color: var(--text) !important;
+  font-size: 1.1rem !important;
+}
+
+.day-section .event-item .time {
+  color: var(--muted) !important;
+  font-size: 0.9rem !important;
+}
+
+.day-section .event-item .venue {
+  color: var(--accent) !important;
+  font-weight: 500 !important;
+  margin-top: 4px !important;
+}
+
+.day-section .event-item .description {
+  margin: 8px 0 0 0 !important;
+  color: var(--text-secondary) !important;
+  font-size: 0.95rem !important;
 }
 
 /* Venue link in metrics table */

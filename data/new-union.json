@@ -18,6 +18,13 @@
             "start": "18:00",
             "end": "00:00",
             "description": "Kerry-Oke with the icon Kerry Katona, from 6pm until late."
+        },
+        {
+            "title": "Tonya Kneez",
+            "day": "monday",
+            "start": "14:00",
+            "end": "15:00",
+            "description": "Tonya Kneez"
         }
     ]
 }

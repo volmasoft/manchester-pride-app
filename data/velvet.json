@@ -6,25 +6,168 @@
     "color": "linear-gradient(135deg, #520c5c 0%, #701f7f 45%, #c084fc 100%)",
     "events": [
         {
-            "title": "Honey's Bar",
+            "title": "Velvet bar - Sandro/Vicci T",
             "day": "friday",
-            "start": "18:00",
-            "end": "03:00",
-            "description": "Velvet turns 30! Honey's fabulous Bar take over!"
+            "start": "23:00",
+            "end": "02:00",
+            "description": "Sandro/Vicci T"
         },
         {
-            "title": "House of Kooky",
+            "title": "Velvet bar - Sandro",
             "day": "saturday",
-            "start": "22:00",
-            "end": "03:00",
-            "description": "Kooky returns for hte ultimate house/disco party"
+            "start": "23:00",
+            "end": "00:00",
+            "description": "Sandro"
         },
         {
-            "title": "House of Kooky",
+            "title": "Velvet bar - Vicci T/Shane",
+            "day": "saturday",
+            "start": "12:30",
+            "end": "02:00",
+            "description": "Vicci T/Shane"
+        },
+        {
+            "title": "Velvet bar - Vicci T",
+            "day": "Sunday",
+            "start": "23:00",
+            "end": "00:00",
+            "description": "Vicci T"
+        },
+        {
+            "title": "Velvet bar - Shane",
+            "day": "sunday",
+            "start": "00:00",
+            "end": "01:00",
+            "description": "Shane"
+        },
+        {
+            "title": "Velvet bar - Sandro",
+            "day": "sunday",
+            "start": "01:00",
+            "end": "02:00",
+            "description": "Sandro"
+        },
+        {
+            "title": "Velvet events - Vicci T / E.M.A",
+            "day": "friday",
+            "start": "23:00",
+            "end": "02:00",
+            "description": "Vicci T / E.M.A"
+        },
+        {
+            "title": "Velvet events - Neil Andrew",
+            "day": "saturday",
+            "start": "22:30",
+            "end": "23:30",
+            "description": "Neil Andrew"
+        },
+        {
+            "title": "Velvet events - E.M.A / Katie McGlynn",
+            "day": "saturday",
+            "start": "23:00",
+            "end": "03:00",
+            "description": "E.M.A / Katie McGlynn"
+        },
+        {
+            "title": "Velvet events - Tom Brogan",
             "day": "sunday",
             "start": "22:00",
+            "end": "23:30",
+            "description": "Tom Brogan"
+        },
+        {
+            "title": "Velvet events - E.M.A / Katie McGlynn",
+            "day": "sunday",
+            "start": "23:30",
             "end": "03:00",
-            "description": "Kooky returns for hte ultimate house/disco party"
+            "description": "E.M.A / Katie McGlynn"
+        },
+        {
+            "title": "Velvet outdoor - E.M.A",
+            "day": "friday",
+            "start": "18:00",
+            "end": "21:00",
+            "description": "E.M.A"
+        },
+        {
+            "title": "Velvet outdoor - Sandro",
+            "day": "friday",
+            "start": "21:00",
+            "end": "23:00",
+            "description": "Sandro"
+        },
+        {
+            "title": "Velvet outdoor - Chris Blackmore",
+            "day": "saturday",
+            "start": "15:30",
+            "end": "17:00",
+            "description": "Chris Blackmore"
+        },
+        {
+            "title": "Velvet outdoor - Neil Andrew",
+            "day": "saturday",
+            "start": "17:00",
+            "end": "18:00",
+            "description": "Neil Andrew"
+        },
+        {
+            "title": "Velvet outdoor - Sandro",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "Sandro"
+        },
+        {
+            "title": "Velvet outdoor - E.M.A",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "23:00",
+            "description": "E.M.A"
+        },
+        {
+            "title": "Velvet outdoor - vicci T",
+            "day": "sunday",
+            "start": "15:00",
+            "end": "16:00",
+            "description": "Vicci T"
+        },
+        {
+            "title": "Velvet outdoor - Vicci T",
+            "day": "sunday",
+            "start": "15:00",
+            "end": "16:00",
+            "description": "Vicci T"
+        },
+        {
+            "title": "Velvet outdoor - Neil Andrew",
+            "day": "sunday",
+            "start": "16:00",
+            "end": "17:00",
+            "description": "Neil Andrew"
+        },
+        {
+            "title": "Velvet outdoor - Tom Brogan",
+            "day": "sunday",
+            "start": "17:00",
+            "end": "18:30",
+            "description": "Tom Brogan"
+        },
+        {
+            "title": "Velvet outdoor - E.M.A",
+            "day": "sunday",
+            "start": "18:300",
+            "end": "21:00",
+            "description": "E.M.A"
+        },
+        {
+            "title": "Velvet outdoor - Sandro",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "23:00",
+            "description": "Sandro"
         }
+
+
+
     ]
 }

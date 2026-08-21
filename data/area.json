@@ -6,11 +6,11 @@
     "color": "linear-gradient(135deg, #dc2626 0%, #f59e0b 45%, #fbbf24 100%)",
     "events": [
         {
-            "title": "VANILLA - Basement Takeover",
+            "title": "VANILLA - Pride opening party",
             "day": "friday",
-            "start": "22:00",
-            "end": "05:30",
-            "description": "Manchester Village Pride Entry to Vanilla ALL WEEKEND!",
+            "start": "22:30",
+            "end": "05:00",
+            "description": "Pre opening party - DJ NKAY",
             "ticket": 6.0
         },
         {
@@ -24,9 +24,9 @@
         {
             "title": "VANILLA XXL",
             "day": "saturday",
-            "start": "22:00",
+            "start": "22:30",
             "end": "05:00",
-            "description": "VANILLA XXL - Pride Saturday - Full Venue Takeover",
+            "description": "VANILLA XXL - Pride Saturday - DJ KL & Pole dancers",
             "ticket": 11.25
         },
         {
@@ -40,9 +40,9 @@
         {
             "title": "VANILLA XXL",
             "day": "sunday",
-            "start": "22:00",
-            "end": "05:30",
-            "description": "VANILLA XXL - Pride Sunday - Main Room Takeover",
+            "start": "22:30",
+            "end": "05:00",
+            "description": "VANILLA XXL - Pride Sunday - Meg Homer & DJ LI Room Takeover",
             "ticket": 11.25
         }
     ]
