@@ -6,11 +6,347 @@
     "color": "linear-gradient(135deg, #1e3a8a 0%, #2563eb 45%, #93c5fd 100%)",
     "events": [
         {
-            "title": "Church stage - Tonya Kneez",
+            "title": "Tom Sentia",
+            "day": "friday",
+            "start": "18:00",
+            "end": "19:00",
+            "description": "Tom Sentia on the church stage"
+        },
+        {
+            "title": "The Alter Girls",
+            "day": "friday",
+            "start": "19:00",
+            "end": "19:30",
+            "description": "The Alert Girls on the church stage"
+        },
+        {
+            "title": "Freddie Mercury Tribute",
+            "day": "friday",
+            "start": "19:30",
+            "end": "20:30",
+            "description": "Freddie Mercury Tribute on the church stage"
+        },
+        {
+            "title": "Benjie James",
+            "day": "friday",
+            "start": "20:30",
+            "end": "21:30",
+            "description": "Benjie James on the church stage"
+        },
+        {
+            "title": "Donna Marie as Lady Gaga",
+            "day": "friday",
+            "start": "21:30",
+            "end": "22:30",
+            "description": "Donna Marie as Lady Gaga on the church stage"
+        },
+        {
+            "title": "DJ Set",
+            "day": "friday",
+            "start": "22:30",
+            "end": "23:00",
+            "description": "DJ Set on the church stage"
+        },
+        {
+            "title": "Bella De Ball",
+            "day": "saturday",
+            "start": "13:00",
+            "end": "13:15",
+            "description": "Bella De Ball on the church stage"
+        },
+        {
+            "title": "Carley Flowers",
+            "day": "saturday",
+            "start": "13:15",
+            "end": "13:30",
+            "description": "Carley Flowers on the church stage"
+        },
+        {
+            "title": "Abbalicious",
+            "day": "saturday",
+            "start": "13:30",
+            "end": "14:20",
+            "description": "Abbalicious on the church stage"
+        },
+        {
+            "title": "Iris Effect",
+            "day": "saturday",
+            "start": "14:20",
+            "end": "14:50",
+            "description": "Iris Effect on the church stage"
+        },
+        {
+            "title": "Tonya Knees",
             "day": "saturday",
             "start": "14:50",
-            "end": "15:50",
-            "description": "Tonya Kneez on the church stage"
+            "end": "15:30",
+            "description": "Tonya Knees on the church stage"
+        },
+        {
+            "title": "Scarlette McNugget",
+            "day": "saturday",
+            "start": "15:30",
+            "end": "15:45",
+            "description": "Scarlette McNugget on the church stage"
+        },
+        {
+            "title": "Alter Girls & The Demonics",
+            "day": "saturday",
+            "start": "15:45",
+            "end": "16:00",
+            "description": "Alter Girls & The Demonics on the church stage"
+        },
+        {
+            "title": "Beverley Bacon",
+            "day": "saturday",
+            "start": "16:00",
+            "end": "16:30",
+            "description": "Beverley Bacon on the church stage"
+        },
+        {
+            "title": "LJ Lites",
+            "day": "saturday",
+            "start": "16:30",
+            "end": "16:45",
+            "description": "LJ Lites on the church stage"
+        },
+        {
+            "title": "Alter Girls & The Demonics",
+            "day": "saturday",
+            "start": "16:45",
+            "end": "17:00",
+            "description": "Alter Girls & The Demonics on the church stage"
+        },
+        {
+            "title": "Jordan Smart",
+            "day": "saturday",
+            "start": "17:00",
+            "end": "17:30",
+            "description": "Jordan Smart on the church stage"
+        },
+        {
+            "title": "Pam Sandwich",
+            "day": "saturday",
+            "start": "17:30",
+            "end": "18:00",
+            "description": "Pam Sandwich on the church stage"
+        },
+        {
+            "title": "Alter Girls & The Demonics",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "18:15",
+            "description": "Alter Girls & The Demonics on the church stage"
+        },
+        {
+            "title": "Bar Pop Show Team - Steps",
+            "day": "saturday",
+            "start": "18:15",
+            "end": "18:30",
+            "description": "Bar Pop Show Team - Steps on the church stage"
+        },
+        {
+            "title": "Shelia Diamond",
+            "day": "saturday",
+            "start": "18:30",
+            "end": "19:15",
+            "description": "Shelia Diamond on the church stage"
+        },
+        {
+            "title": "Small Town Boy",
+            "day": "saturday",
+            "start": "19:15",
+            "end": "20:15",
+            "description": "Small Town Boy on the church stage"
+        },
+        {
+            "title": "Essentially Cher",
+            "day": "saturday",
+            "start": "20:15",
+            "end": "21:15",
+            "description": "Essentially Cher on the church stage"
+        },
+        {
+            "title": "Angie Brown",
+            "day": "saturday",
+            "start": "21:15",
+            "end": "22:15",
+            "description": "Angie Brown on the church stage"
+        },
+        {
+            "title": "DJ Set",
+            "day": "saturday",
+            "start": "22:15",
+            "end": "23:00",
+            "description": "DJ Set on the church stage"
+        },
+        {
+            "title": "Milkn It",
+            "day": "sunday",
+            "start": "13:00",
+            "end": "14:00",
+            "description": "Milkn It on the church stage"
+        },
+        {
+            "title": "Winner of COC",
+            "day": "sunday",
+            "start": "14:00",
+            "end": "14:15",
+            "description": "Winner of COC on the church stage"
+        },
+        {
+            "title": "Toni Lee",
+            "day": "sunday",
+            "start": "14:15",
+            "end": "14:45",
+            "description": "Toni Lee on the church stage"
+        },
+        {
+            "title": "Cherub",
+            "day": "sunday",
+            "start": "14:45",
+            "end": "15:15",
+            "description": "Cherub on the church stage"
+        },
+        {
+            "title": "KY Kelly",
+            "day": "sunday",
+            "start": "15:15",
+            "end": "15:45",
+            "description": "KY Kelly on the church stage"
+        },
+        {
+            "title": "Alter Girls & The Demonics",
+            "day": "sunday",
+            "start": "15:45",
+            "end": "16:15",
+            "description": "Alter Girls & The Demonics on the church stage"
+        },
+        {
+            "title": "Bonnie La Blue",
+            "day": "sunday",
+            "start": "16:15",
+            "end": "16:45",
+            "description": "Bonnie La Blue on the church stage"
+        },
+        {
+            "title": "Baby Darling",
+            "day": "sunday",
+            "start": "16:45",
+            "end": "17:30",
+            "description": "Baby Darling on the church stage"
+        },
+        {
+            "title": "Yshee Black",
+            "day": "sunday",
+            "start": "17:30",
+            "end": "18:10",
+            "description": "Yshee Black on the church stage"
+        },
+        {
+            "title": "Alter Girls & The Demonics",
+            "day": "sunday",
+            "start": "18:10",
+            "end": "18:40",
+            "description": "Alter Girls & The Demonics on the church stage"
+        },
+        {
+            "title": "Jackie Love presents Tip Toe",
+            "day": "sunday",
+            "start": "18:40",
+            "end": "19:15",
+            "description": "Jackie Love presents Tip Toe on the church stage"
+        },
+        {
+            "title": "Krystal Kane",
+            "day": "sunday",
+            "start": "19:15",
+            "end": "20:15",
+            "description": "Krystal Kane on the church stage"
+        },
+        {
+            "title": "Beckie Joe - Great Manc Rave",
+            "day": "sunday",
+            "start": "20:15",
+            "end": "21:00",
+            "description": "Beckie Joe - Great Manc Rave on the church stage"
+        },
+        {
+            "title": "Kevin & Perry",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "Kevin & Perry on the church stage"
+        },
+        {
+            "title": "Streo Bitch DJ Takeover",
+            "day": "sunday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Streo Bitch DJ Takeover on the church stage"
+        },
+        {
+            "title": "Gay Gordons",
+            "day": "monday",
+            "start": "13:45",
+            "end": "15:00",
+            "description": "Gay Gordons on the church stage"
+        },
+        {
+            "title": "Anarchy Queen",
+            "day": "monday",
+            "start": "15:00",
+            "end": "15:30",
+            "description": "Anarchy Queen on the church stage"
+        },
+        {
+            "title": "Luna Rose",
+            "day": "monday",
+            "start": "15:30",
+            "end": "16:00",
+            "description": "Lunra Rose on the church stage"
+        },
+        {
+            "title": "Taylor Sparks",
+            "day": "monday",
+            "start": "16:00",
+            "end": "16:30",
+            "description": "Taylor Sparks on the church stage"
+        },
+        {
+            "title": "Shazza",
+            "day": "monday",
+            "start": "16:30",
+            "end": "17:00",
+            "description": "Shazza on the church stage"
+        },
+        {
+            "title": "Baby Darling",
+            "day": "monday",
+            "start": "17:00",
+            "end": "17:45",
+            "description": "Baby Darling on the church stage"
+        },
+        {
+            "title": "Sam Buttery",
+            "day": "monday",
+            "start": "17:45",
+            "end": "18:15",
+            "description": "Sam Buttery on the church stage"
+        },
+        {
+            "title": "Vanilla Bonbon",
+            "day": "monday",
+            "start": "18:15",
+            "end": "19:00",
+            "description": "Vanilla Bonbon  on the church stage"
+        },
+        {
+            "title": "Pam Sandwich",
+            "day": "monday",
+            "start": "19:00",
+            "end": "18:00",
+            "description": "Pam Sandwich on the church stage"
         }
     ]
 }

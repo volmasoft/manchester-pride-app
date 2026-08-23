@@ -8,23 +8,366 @@
         {
             "title": "Show team & Baga Chips MBE",
             "day": "thursday",
-            "start": "23:00",
+            "start": "22:00",
             "end": "00:00",
-            "description": "Bar Pop show team and Baga Chips MBE, starts after gay olympics."
+            "description": "Bar Pop show team starts after gay olympics."
         },
         {
-            "title": "Barpop stage - Tonya Kneez",
+            "title": "Baga Chips MBE",
+            "day": "thursday",
+            "start": "24:00",
+            "end": "02:00",
+            "description": "Baga Chips MBE, starts after gay olympics."
+        },
+        {
+            "title": "Miss Penny",
             "day": "friday",
-            "start": "21:50",
-            "end": "22:30",
+            "start": "18:00",
+            "end": "18:45",
+            "description": "Miss Penny on the barpop stage"
+        },
+        {
+            "title": "Belinda Scandal",
+            "day": "friday",
+            "start": "18:45",
+            "end": "19:15",
+            "description": "Belinda Scandal on the barpop stage"
+        },
+        {
+            "title": "Ash Stone",
+            "day": "friday",
+            "start": "19:15",
+            "end": "19:50",
+            "description": "Ash Stone on the barpop stage"
+        },
+        {
+            "title": "Lee Money",
+            "day": "friday",
+            "start": "19:50",
+            "end": "20:30",
+            "description": "Lee Money on the barpop stage"
+        },
+        {
+            "title": "Robbie Barr",
+            "day": "friday",
+            "start": "20:30",
+            "end": "21:10",
+            "description": "Robbie Barr on the barpop stage"
+        },
+        {
+            "title": "Tonya Kneez",
+            "day": "friday",
+            "start": "21:10",
+            "end": "21:40",
             "description": "Tonya Kneez on the barpop stage"
         },
         {
-            "title": "Barpop stage - Tonya Kneez",
+            "title": "Shania Payne",
+            "day": "friday",
+            "start": "21:40",
+            "end": "22:15",
+            "description": "Shania Payne on the barpop stage"
+        },
+        {
+            "title": "Belinda Scandal",
+            "day": "friday",
+            "start": "22:15",
+            "end": "23:00",
+            "description": "Tonya Kneez on the barpop stage"
+        },
+        {
+            "title": "The Cheeky Girls",
+            "day": "friday",
+            "start": "24:00",
+            "end": "02:00",
+            "description": "The Cheeky Girls"
+        },
+        {
+            "title": "Carley Flowers",
+            "day": "saturday",
+            "start": "13:00",
+            "end": "13:30",
+            "description": "Carley Flowers on the barpop stage"
+        },
+        {
+            "title": "Krystal Kane",
+            "day": "saturday",
+            "start": "13:30",
+            "end": "14:00",
+            "description": "Krystal Kane on the barpop stage"
+        },
+        {
+            "title": "Tasty",
+            "day": "saturday",
+            "start": "14:00",
+            "end": "14:15",
+            "description": "Tasty on the barpop stage"
+        },
+        {
+            "title": "Bella De Ball",
+            "day": "saturday",
+            "start": "14:15",
+            "end": "15:00",
+            "description": "Bella De Ball on the barpop stage"
+        },
+        {
+            "title": "Jordan Smart",
+            "day": "saturday",
+            "start": "15:00",
+            "end": "15:30",
+            "description": "Jordan Smart on the barpop stage"
+        },
+        {
+            "title": "LJ Lites",
+            "day": "saturday",
+            "start": "15:30",
+            "end": "15:45",
+            "description": "LJ Lites on the barpop stage"
+        },
+        {
+            "title": "Bexy Banged",
+            "day": "saturday",
+            "start": "15:45",
+            "end": "16:30",
+            "description": "Bexy Banged on the barpop stage"
+        },
+        {
+            "title": "Scarlett McNugget",
+            "day": "saturday",
+            "start": "16:30",
+            "end": "16:45",
+            "description": "Scarlett McNugget on the barpop stage"
+        },
+        {
+            "title": "Tina Tuna",
+            "day": "saturday",
+            "start": "16:45",
+            "end": "17:30",
+            "description": "Tina Tuna on the barpop stage"
+        },
+        {
+            "title": "Beverley Bacon",
+            "day": "saturday",
+            "start": "17:30",
+            "end": "18:00",
+            "description": "Beverley Bacon on the barpop stage"
+        },
+        {
+            "title": "Rob Bowden King",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "18:45",
+            "description": "Rob Bowden King on the barpop stage"
+        },
+        {
+            "title": "Sam Buttery",
+            "day": "saturday",
+            "start": "18:45",
+            "end": "19:45",
+            "description": "Sam Buttery on the barpop stage"
+        },
+        {
+            "title": "Pam Sandwich",
+            "day": "saturday",
+            "start": "19:45",
+            "end": "20:30",
+            "description": "Pam Sandwich on the barpop stage"
+        },
+        {
+            "title": "Tonya Knees",
             "day": "saturday",
             "start": "20:30",
-            "end": "21:30",
-            "description": "Tonya Kneez on the barpop stage"
+            "end": "21:15",
+            "description": "Tonya Knees on the barpop stage"
+        },
+        {
+            "title": "Shelia Diamond",
+            "day": "saturday",
+            "start": "21:15",
+            "end": "22:00",
+            "description": "Shelia Diamond on the barpop stage"
+        },
+        {
+            "title": "Kelly Wild",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Kelly Wild on the barpop stage"
+        },
+        {
+            "title": "Bella De Ball",
+            "day": "sunday",
+            "start": "13:00",
+            "end": "14:00",
+            "description": "Bella De Ball on the barpop stage"
+        },
+        {
+            "title": "Sandra and Cherub",
+            "day": "sunday",
+            "start": "14:00",
+            "end": "14:30",
+            "description": "Sandra and Cherub on the barpop stage"
+        },
+        {
+            "title": "Coco",
+            "day": "sunday",
+            "start": "14:30",
+            "end": "15:00",
+            "description": "Coco on the barpop stage"
+        },
+        {
+            "title": "Poppets",
+            "day": "sunday",
+            "start": "15:00",
+            "end": "15:30",
+            "description": "Poppets on the barpop stage"
+        },
+        {
+            "title": "Toni Lee",
+            "day": "sunday",
+            "start": "15:30",
+            "end": "16:00",
+            "description": "Toni Lee on the barpop stage"
+        },
+        {
+            "title": "KY Kelly",
+            "day": "sunday",
+            "start": "16:00",
+            "end": "16:30",
+            "description": "KY Kelly on the barpop stage"
+        },
+        {
+            "title": "Felicia and The Demonics",
+            "day": "sunday",
+            "start": "16:30",
+            "end": "17:00",
+            "description": "Felicia and the Demonics on the barpop stage"
+        },
+        {
+            "title": "Dianna B-Tease",
+            "day": "sunday",
+            "start": "17:00",
+            "end": "17:30",
+            "description": "Dianna B-Tease on the barpop stage"
+        },
+        {
+            "title": "Bar Pop Show Team",
+            "day": "sunday",
+            "start": "17:30",
+            "end": "18:00",
+            "description": "Bar Pop Show Team on the barpop stage"
+        },
+        {
+            "title": "Bonnie La Blue",
+            "day": "sunday",
+            "start": "18:00",
+            "end": "18:30",
+            "description": "Bonnie La Blue on the barpop stage"
+        },
+        {
+            "title": "Poppets",
+            "day": "sunday",
+            "start": "18:30",
+            "end": "19:00",
+            "description": "Poppets on the barpop stage"
+        },
+        {
+            "title": "Baby Darling",
+            "day": "sunday",
+            "start": "19:00",
+            "end": "19:30",
+            "description": "Baby Darling on the barpop stage"
+        },
+        {
+            "title": "Jackie Love",
+            "day": "sunday",
+            "start": "19:30",
+            "end": "20:00",
+            "description": "Jackie Love on the barpop stage"
+        },
+        {
+            "title": "Daliah",
+            "day": "sunday",
+            "start": "20:00",
+            "end": "20:45",
+            "description": "Daliah on the barpop stage"
+        },
+        {
+            "title": "Bar Pop Show Team",
+            "day": "sunday",
+            "start": "20:45",
+            "end": "21:00",
+            "description": "Bar Pop Show Team on the barpop stage"
+        },
+        {
+            "title": "Emily Clarke",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "Emily Clarke on the barpop stage"
+        },
+        {
+            "title": "Lareen Mitchell",
+            "day": "sunday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Lareen Mitchell on the barpop stage"
+        },
+        {
+            "title": "Beverley Tight Lipps",
+            "day": "monday",
+            "start": "14:00",
+            "end": "14:45",
+            "description": "Beverley Tight Lipps on the barpop stage"
+        },
+        {
+            "title": "Alison",
+            "day": "monday",
+            "start": "14:40",
+            "end": "15:30",
+            "description": "Alison on the barpop stage"
+        },
+        {
+            "title": "Dahlia",
+            "day": "monday",
+            "start": "15:30",
+            "end": "16:15",
+            "description": "Dahlia on the barpop stage"
+        },
+        {
+            "title": "Bonnie Bon Qui Qui",
+            "day": "monday",
+            "start": "16:15",
+            "end": "17:00",
+            "description": "Bonnie Bon Qui Qui on the barpop stage"
+        },
+        {
+            "title": "Queen Bee",
+            "day": "monday",
+            "start": "17:00",
+            "end": "17:45",
+            "description": "Queen Bee on the barpop stage"
+        },
+        {
+            "title": "Pam Sandwich",
+            "day": "monday",
+            "start": "17:45",
+            "end": "18:30",
+            "description": "Pam Sandwich on the barpop stage"
+        },
+        {
+            "title": "Kadie",
+            "day": "monday",
+            "start": "18:30",
+            "end": "19:15",
+            "description": "Kadie on the barpop stage"
+        },
+        {
+            "title": "Beverley Tight Lipps",
+            "day": "monday",
+            "start": "19:15",
+            "end": "20:00",
+            "description": "Beverley Tight Lipps on the barpop stage"
         }
     ]
 }
