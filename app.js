@@ -306,7 +306,7 @@ function createEventCard(event, topPx, heightPx, leftPx, widthPx) {
   const ticketPrice = event.ticket;
   const hasTicket = ticketPrice !== undefined && ticketPrice !== null && ticketPrice !== '';
 
-  const titleText = document.createTextNode(event.title);
+  const titleText = document.createTextNode(`${event.title} (${formatTimeRange(event.start, event.end)})`);
   title.appendChild(titleText);
 
   if (hasTicket) {
@@ -334,10 +334,7 @@ function createEventCard(event, topPx, heightPx, leftPx, widthPx) {
     venueLink.style.textDecoration = 'underline';
     venue.appendChild(venueLink);
 
-  const details = document.createElement('small');
-  details.textContent = formatTimeRange(event.start, event.end);
-
-  card.append(titleRow, venue, details);
+  card.append(titleRow, venue);
 
   if (event.official) {
     const star = document.createElement('span');
@@ -614,7 +611,7 @@ function renderTimeline(events) {
     return;
   }
 
-  const hourHeight = 72;
+  const hourHeight = 200; // Increased from 72 for better event visibility
   const firstHour = Math.floor(Math.min(...dayEvents.map(event => timeToMinutes(event.start))) / 60);
   const lastHour = Math.ceil(Math.max(...dayEvents.map(event => {
     const { endMinutes } = getEventMinutes(event);
