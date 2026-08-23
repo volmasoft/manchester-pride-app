@@ -611,7 +611,7 @@ function renderTimeline(events) {
     return;
   }
 
-  const hourHeight = 300; // Increased from 72 for better event visibility
+  const hourHeight = 320; // Increased from 72 for better event visibility
   const firstHour = Math.floor(Math.min(...dayEvents.map(event => timeToMinutes(event.start))) / 60);
   const lastHour = Math.ceil(Math.max(...dayEvents.map(event => {
     const { endMinutes } = getEventMinutes(event);
@@ -670,9 +670,10 @@ function renderTimeline(events) {
 
   placedEvents.forEach(({ event, laneIndex }) => {
     const { startMinutes, endMinutes } = getEventMinutes(event);
+    // Use exact minute-based calculation for precise event heights
+    const durationMinutes = endMinutes - startMinutes;
     const topPx = ((startMinutes / 60) - firstHour) * hourHeight;
-    const durationHours = Math.max(1, Math.ceil((endMinutes - startMinutes) / 60));
-    const heightPx = Math.max(hourHeight * durationHours, 48);
+    const heightPx = Math.max((durationMinutes / 60) * hourHeight, 48);
     const eventCard = createEventCard(event, topPx, heightPx, 0, 0);
     eventCards.push({ card: eventCard, laneIndex });
     eventsLayer.appendChild(eventCard);
