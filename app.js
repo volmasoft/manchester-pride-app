@@ -611,7 +611,7 @@ function renderTimeline(events) {
     return;
   }
 
-  const hourHeight = 200; // Increased from 72 for better event visibility
+  const hourHeight = 300; // Increased from 72 for better event visibility
   const firstHour = Math.floor(Math.min(...dayEvents.map(event => timeToMinutes(event.start))) / 60);
   const lastHour = Math.ceil(Math.max(...dayEvents.map(event => {
     const { endMinutes } = getEventMinutes(event);
