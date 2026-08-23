@@ -790,6 +790,42 @@ function renderVenueMetrics(events) {
 
     tbody.appendChild(row);
   });
+
+  // Add a totals row at the bottom that sums each day column
+  const dayTotals = {};
+  dayKeys.forEach(day => { dayTotals[day] = 0; });
+  events.forEach(event => {
+    const dayKey = normalizeDayKey(event.day);
+    if (dayTotals[dayKey] !== undefined && counts[event.venue]) {
+      dayTotals[dayKey] += 1;
+    }
+  });
+
+  const grandTotal = dayKeys.reduce((sum, day) => sum + dayTotals[day], 0);
+
+  const totalsRow = document.createElement('tr');
+  totalsRow.className = 'totals-row';
+
+  const totalsLabelCell = document.createElement('td');
+  totalsLabelCell.textContent = 'Total';
+  totalsLabelCell.className = 'totals-label';
+  totalsLabelCell.style.color = 'var(--text)';
+  totalsLabelCell.style.fontWeight = '600';
+  totalsRow.appendChild(totalsLabelCell);
+
+  dayKeys.forEach(day => {
+    const td = document.createElement('td');
+    td.textContent = dayTotals[day] || 0;
+    td.classList.add('totals-cell');
+    totalsRow.appendChild(td);
+  });
+
+  const totalsTotalCell = document.createElement('td');
+  totalsTotalCell.textContent = grandTotal;
+  totalsTotalCell.className = 'total';
+  totalsRow.appendChild(totalsTotalCell);
+
+  tbody.appendChild(totalsRow);
   table.appendChild(tbody);
 
   container.appendChild(table);

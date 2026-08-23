@@ -409,6 +409,19 @@ body {
         font-weight: 700;
         border-left: 1px solid rgba(255, 255, 255, 0.12);
       }
+      .metrics-table .totals-row td {
+        border-top: 2px solid rgba(255, 255, 255, 0.15);
+      }
+      .metrics-table .totals-label {
+        color: var(--text) !important;
+        font-weight: 600;
+        text-align: left;
+        font-style: normal;
+      }
+      .metrics-table .totals-cell {
+        color: var(--text);
+        font-weight: 500;
+      }
       @media (max-width: 700px) {
         .timeline-calendar {
           overflow-x: auto;
