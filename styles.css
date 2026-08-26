@@ -55,6 +55,13 @@ body {
         font-weight: 600;
         text-align: center;
       }
+      .last-updated {
+        font-size: 0.7rem;
+        color: var(--muted);
+        font-weight: 400;
+        display: block;
+        margin-top: 4px;
+      }
       .nav-bar {
         display: flex;
         gap: 16px;
