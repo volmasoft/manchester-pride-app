@@ -77,12 +77,33 @@
             "description": "If you're still going strong and ready for night 3 of Manchester Village Pride then look further than Eagle! DJ's Robbie Edwards and Roger Da Silva are on hand all the way thru until 8am playing the beat to your Pride Saturday night."
         },
         {
-            "title": "Eagle Outside Stage",
+            "title": "Eagle Outside Stage Lineup",
             "day": "sunday",
             "start": "14:00",
-            "end": "23:00",
+            "end": "21:00",
             "description": "Hosted by Miss Penny, featuring performances from Absolute Britney, Gladys Duffy, Patrick Saint James, Karla Bear, Kyle Finn, Lola Lasange, Martha D'Arthur, Belinda Scandal."
         },
+        {
+            "title": "Eagle Outside Stage: Martha D'Arthur",
+            "day": "sunday",
+            "start": "15:50",
+            "end": "16:20",
+            "description": "Martha D'Arthur."
+        },
+        {
+            "title": "Eagle Outside Stage: Absolute Britney",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "Hosted by Miss Penny, featuring performances from Absolute Britney, Gladys Duffy, Patrick Saint James, Karla Bear, Kyle Finn, Lola Lasange, Martha D'Arthur, Belinda Scandal."
+        },
+        {
+            "title": "Eagle Outside Stage Lineup",
+            "day": "sunday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Hosted by Miss Penny, featuring performances from Absolute Britney, Gladys Duffy, Patrick Saint James, Karla Bear, Kyle Finn, Lola Lasange, Martha D'Arthur, Belinda Scandal."
+        },,
         {
             "title": "Tonya Kneez",
             "day": "sunday",

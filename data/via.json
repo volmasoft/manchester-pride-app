@@ -45,7 +45,21 @@
             "title": "Una Healy",
             "day": "saturday",
             "start": "12:00",
-            "end": "04:00",
+            "end": "21:00",
+            "description": "A daytime-to-late-night set from Una Healy with a lively crowd and full venue energy."
+        },
+        {
+            "title": "Absolute Britney",
+            "day": "saturday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "A daytime-to-late-night set from Una Healy with a lively crowd and full venue energy."
+        },
+        {
+            "title": "Una Healy",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "23:00",
             "description": "A daytime-to-late-night set from Una Healy with a lively crowd and full venue energy."
         },
         {
@@ -70,10 +84,24 @@
             "description": "A celebratory Sunday performance with a high-energy crowd and late-night atmosphere."
         },
         {
+            "title": "Michelle Lawson",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "Michelle Lawson"
+        },
+        {
+            "title": "Michelle Lawson",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Michelle Lawson"
+        },
+        {
             "title": "Christina Bianco",
             "day": "monday",
-            "start": "00:00",
-            "end": "00:00",
+            "start": "23:00",
+            "end": "24:00",
             "description": "A closing-night performance celebrating the final day of the festival with a special show."
         }
     ]

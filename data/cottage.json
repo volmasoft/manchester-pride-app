@@ -18,6 +18,13 @@
             "start": "22:30",
             "end": "23:30",
             "description": "KY Kelly"
+        },
+        {
+            "title": "Martha D'Arthur",
+            "day": "sunday",
+            "start": "18:30",
+            "end": "19:30",
+            "description": "Martha D'Arthur"
         }
     ]
 }

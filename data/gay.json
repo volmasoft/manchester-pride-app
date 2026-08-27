@@ -6,6 +6,21 @@
     "color": "linear-gradient(135deg, #ad289a 0%, #db2777 45%, #f9a8d4 100%)",
     "events": [
         {
+            "title": "Meet the Queens",
+            "day": "thursday",
+            "start": "22:00",
+            "end": "23:30",
+            "ticket": 11.55,
+            "description": "Rupaul's Drag Race UK Season 8 is coming, meet and greet with 5 queens."
+        },
+        {
+            "title": "ICONZ",
+            "day": "friday",
+            "start": "22:00",
+            "end": "02:00",
+            "description": "Pride edition of ICONZ, Chri Von Luxx, Rita Lynne, Moxie."
+        },
+        {
             "title": "Pride Monday",
             "day": "monday",
             "start": "22:00",

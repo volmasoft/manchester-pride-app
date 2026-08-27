@@ -102,6 +102,13 @@
             "start": "20:00",
             "end": "22:00",
             "description": "The Brewers outside stage"
+        },
+        {
+            "title": "Michelle Lawson",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Michelle Lawson"
         }
     ]
 }

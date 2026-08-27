@@ -6,6 +6,12 @@
     "color": "linear-gradient(135deg, #0891b2 0%, #06b6d1 45%, #a7f3d0 100%)",
     "events": [
         {
+            "title": "Lineup",
+            "day": "thursday",
+            "start": "20:00",
+            "end": "00:00",
+            "description": "Ginger Hunter, Harlotte Venti, Klawdeen, Raine, Kynn De Lynn, Jordyn Banks, Mungea Diabla, Naomi Lea, Kadey The Doll, Imani Versace, Layla Mugler."
+        },{
             "title": "Platinum",
             "day": "friday",
             "start": "20:00",
@@ -13,11 +19,18 @@
             "description": "Platinum live on stage at the New Union, acts TBA, 8pm until late."
         },
         {
-            "title": "Kerry-oke",
+            "title": "Kerry Katona and others",
             "day": "sunday",
             "start": "18:00",
             "end": "00:00",
-            "description": "Kerry-Oke with the icon Kerry Katona, from 6pm until late."
+            "description": "Kerry-Oke with the icon Kerry Katona, from 6pm until late. With Dixi Tucker, Ivy Groove, Molly Klawdeen, Tyla, Ginger Hunter, Big Dee"
+        },
+        {
+            "title": "Lineup",
+            "day": "monday",
+            "start": "18:00",
+            "end": "00:00",
+            "description": "Ginger Hunter, Big Dee, Tonya Knees, Vil, Jenny Tulls, Voidsummer, Salt"
         },
         {
             "title": "Tonya Kneez",
