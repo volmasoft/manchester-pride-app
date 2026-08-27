@@ -1,0 +1,23 @@
+{
+    "venue": "Cottage Bar",
+    "url": "",
+    "address": "42 Chorlton St, manchester, M1 3HW",
+    "mapsUrl": "https://www.google.com/maps?q=42+Chorlton+St,+Manchester+M1+3HW",
+    "color": "linear-gradient(135deg, #dc2626 0%, #f59e0b 45%, #fbbf24 100%)",
+    "events": [
+        {
+            "title": "KY Kelly",
+            "day": "friday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "KY Kelly"
+        },
+        {
+            "title": "KY Kelly",
+            "day": "saturday",
+            "start": "22:30",
+            "end": "23:30",
+            "description": "KY Kelly"
+        }
+    ]
+}

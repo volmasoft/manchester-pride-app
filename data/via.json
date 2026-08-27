@@ -21,11 +21,25 @@
             "description": "The annual games are back for another year, the big gay olympics."
         },
         {
+            "title": "KY Kelly",
+            "day": "thursday",
+            "start": "22:30",
+            "end": "24:00",
+            "description": "KY Kelly."
+        },
+        {
             "title": "Katie Price",
             "day": "friday",
             "start": "20:00",
             "end": "04:00",
             "description": "An evening of entertainment and nightlife with Katie Price headlining the late show."
+        },
+        {
+            "title": "KY Kelly",
+            "day": "friday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "KY Kelly."
         },
         {
             "title": "Una Healy",
@@ -39,6 +53,13 @@
             "day": "sunday",
             "start": "12:00",
             "end": "04:00",
+            "description": "A celebratory Sunday performance with a high-energy crowd and late-night atmosphere."
+        },
+        {
+            "title": "KY Kelly",
+            "day": "sunday",
+            "start": "17:00",
+            "end": "18:00",
             "description": "A celebratory Sunday performance with a high-energy crowd and late-night atmosphere."
         },
         {

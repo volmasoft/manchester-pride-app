@@ -13,11 +13,53 @@
             "description": "Join us for a night of dazzling cabaret at The Brewers Manchester"
         },
         {
+            "title": "Scott Hilton",
+            "day": "friday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "Eden Binks",
+            "day": "friday",
+            "start": "20:00",
+            "end": "22:00",
+            "description": "The Brewers outside stage"
+        },
+        {
             "title": "Attitude",
             "day": "friday",
             "start": "22:00",
             "end": "04:00",
             "description": "Get ready to party at The Brewers Manchester! Club night this weekend!"
+        },
+        {
+            "title": "FORBID",
+            "day": "saturday",
+            "start": "14:00",
+            "end": "16:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "Eden Binks",
+            "day": "saturday",
+            "start": "16:00",
+            "end": "18:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "Peter Bailey",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "Scott Hilton",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "22:00",
+            "description": "The Brewers outside stage"
         },
         {
             "title": "Popsicle",
@@ -32,6 +74,34 @@
             "start": "20:00",
             "end": "02:00",
             "description": "Get ready for a fabulous night of Drag Bingo at The Brewers Manchester!"
+        },
+        {
+            "title": "Billy Andrew",
+            "day": "saturday",
+            "start": "14:00",
+            "end": "16:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "FORBID",
+            "day": "saturday",
+            "start": "16:00",
+            "end": "18:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "Peter Bailey",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "The Brewers outside stage"
+        },
+        {
+            "title": "DULLAGE",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "22:00",
+            "description": "The Brewers outside stage"
         }
     ]
 }

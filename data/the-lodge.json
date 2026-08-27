@@ -9,35 +9,35 @@
             "title": "Ruby Lounge",
             "day": "thursday",
             "start": "12:00",
-            "end": "00:00",
+            "end": "23:00",
             "description": "12pm until late."
         },
         {
             "title": "Ruby Lounge",
             "day": "friday",
             "start": "12:00",
-            "end": "00:00",
+            "end": "23:00",
             "description": "12pm until late."
         },
         {
             "title": "Ruby Lounge",
             "day": "saturday",
             "start": "12:00",
-            "end": "00:00",
+            "end": "23:00",
             "description": "12pm until late."
         },
         {
             "title": "Ruby Lounge",
             "day": "sunday",
             "start": "12:00",
-            "end": "00:00",
+            "end": "23:00",
             "description": "12pm until late."
         },
         {
             "title": "Ruby Lounge",
             "day": "monday",
             "start": "12:00",
-            "end": "00:00",
+            "end": "23:00",
             "description": "12pm until late."
         }
     ]

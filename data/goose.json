@@ -5,5 +5,47 @@
     "mapsUrl": "https://www.google.com/maps?q=29+Bloom+St,+Manchester+M1+3JE",
     "color": "linear-gradient(135deg, #b45309 0%, #f59e0b 45%, #fde68a 100%)",
     "events": [
+        {
+            "title": "Midnight Cabaret",
+            "day": "thursday",
+            "start": "17:00",
+            "end": "23:00",
+            "description": "Midnight Cabaret - Belinda Scandal and Portia Parker. (times unknown)"
+        },
+        {
+            "title": "Misty Chance, DJ Max",
+            "day": "friday",
+            "start": "17:00",
+            "end": "23:00",
+            "description": "Pride Friday, Misty Chance & DJ Max. (times unknown)"
+        },
+        {
+            "title": "Verry Cherry, Shania Pain, DJ Max",
+            "day": "saturday",
+            "start": "17:00",
+            "end": "23:00",
+            "description": "Verry Cherry, Shania Pain, DJ Max - Pride Saturday There's no place like the goose. (times unknown)"
+        },
+        {
+            "title": "Verry Cherry, KY Kelly, DJ Max",
+            "day": "sunday",
+            "start": "17:00",
+            "end": "23:00",
+            "description": "Verry Cherry, KY Kelly, DJ Max - Pride Sunday. (times unknown)"
+        },
+        {
+            "title": "KY Kelly",
+            "day": "sunday",
+            "start": "19:00",
+            "end": "20:00",
+            "description": "KY Kelly."
+        },
+        {
+            "title": "Violet Pain, Baroness Mary Golds, Portia Parker",
+            "day": "monday",
+            "start": "17:00",
+            "end": "23:00",
+            "description": "Violet Pain, Baroness Mary Golds, Portia Parker - Pride Monday. (times unknown)"
+        }
     ]
 }

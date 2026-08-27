@@ -34,18 +34,18 @@
             "description": "Snow White Trash on the main stage"
         },
         {
-            "title": "Lineup",
-            "day": "monday",
-            "start": "12:00",
-            "end": "23:00",
-            "description": "Rowetta, Anna Phylactic, Jordan Smart, Club Zindagi, The Alter Girls & The Demonics, Gay Gordons."
-        },
-        {
-            "title": "Club Rat takeover",
+            "title": "Dance Arena: Club Rat takeover",
             "day": "saturday",
             "start": "15:00",
             "end": "18:00",
             "description": "Club Rat takeove of the dance arena @clubrat_entertainment and BANKSIE"
+        },
+        {
+            "title": "Main stage: KY Kelly",
+            "day": "saturday",
+            "start": "15:40",
+            "end": "16:40",
+            "description": "KY Kelly on the main stage"
         },
         {
             "title": "Host: Tonya Kneez",
@@ -53,6 +53,13 @@
             "start": "16:30",
             "end": "17:30",
             "description": "Tonya Kneez hosting"
+        },
+        {
+            "title": "Lineup",
+            "day": "monday",
+            "start": "12:00",
+            "end": "23:00",
+            "description": "Rowetta, Anna Phylactic, Jordan Smart, Club Zindagi, The Alter Girls & The Demonics, Gay Gordons."
         }
     ],
     "official": true
