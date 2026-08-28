@@ -1,0 +1,325 @@
+{
+    "venue": "Official - Main stage",
+    "url": "https://www.manchestervillagepride.org/",
+    "address": "92 Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=92+Bloom+St,+Manchester+M1+3LY",
+    "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
+    "events": [
+        {
+            "title": "Main stage: Gladys Duffy and DJ Mario (Cheer Up)",
+            "day": "friday",
+            "start": "18:00",
+            "end": "19:15",
+            "description": "Nadine Coyle, Danny Beard, Freemasons & Katherine Ellis, Gladys Duffy, Louis Cyfer, Bruk Out, Verry Cherry, Lola Lasagne, Mix-Stress presents back to the basics."
+        },
+        {
+            "title": "Main stage: Lola Lasagne",
+            "day": "friday",
+            "start": "19:15",
+            "end": "19:45",
+            "description": "Nadine Coyle, Danny Beard, Freemasons & Katherine Ellis, Gladys Duffy, Louis Cyfer, Bruk Out, Verry Cherry, Lola Lasagne, Mix-Stress presents back to the basics."
+        },
+        {
+            "title": "Main stage: Danny Beard",
+            "day": "friday",
+            "start": "19:45",
+            "end": "20:45",
+            "description": "Nadine Coyle, Danny Beard, Freemasons & Katherine Ellis, Gladys Duffy, Louis Cyfer, Bruk Out, Verry Cherry, Lola Lasagne, Mix-Stress presents back to the basics."
+        },
+        {
+            "title": "Main stage: Freemasons & Katherine Ellis",
+            "day": "friday",
+            "start": "20:45",
+            "end": "22:05",
+            "description": "Nadine Coyle, Danny Beard, Freemasons & Katherine Ellis, Gladys Duffy, Louis Cyfer, Bruk Out, Verry Cherry, Lola Lasagne, Mix-Stress presents back to the basics."
+        },
+        {
+            "title": "Main stage: B*WITCHED",
+            "day": "friday",
+            "start": "22:05",
+            "end": "23:00",
+            "description": "Nadine Coyle, Danny Beard, Freemasons & Katherine Ellis, Gladys Duffy, Louis Cyfer, Bruk Out, Verry Cherry, Lola Lasagne, Mix-Stress presents back to the basics."
+        },
+        {
+            "title": "Main stage: DJ: Josh Smith",
+            "day": "saturday",
+            "start": "12:00",
+            "end": "17:30",
+            "description": "Main stage DJ"
+        },
+        {
+            "title": "Main stage: DJ: Dan Walker Smith",
+            "day": "saturday",
+            "start": "17:30",
+            "end": "23:00",
+            "description": "Main stage DJ"
+        },
+        {
+            "title": "Main stage: Host: Viva La Diva & Yshee Black",
+            "day": "saturday",
+            "start": "12:30",
+            "end": "16:30",
+            "description": "Hosting main stage"
+        },
+        {
+            "title": "Main stage: Host: Soraya Vivian",
+            "day": "saturday",
+            "start": "14:30",
+            "end": "19:00",
+            "description": "Hosting main stage"
+        },
+        {
+            "title": "Main stage: Host: Danny Beard",
+            "day": "saturday",
+            "start": "19:00",
+            "end": "24:00",
+            "description": "Hosting main stage"
+        },
+        {
+            "title": "Main stage: Kym Sims",
+            "day": "saturday",
+            "start": "12:35",
+            "end": "13:15",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Donna Marie as Gaga",
+            "day": "saturday",
+            "start": "13:15",
+            "end": "14:10",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Sophie Grey",
+            "day": "saturday",
+            "start": "14:10",
+            "end": "14:50",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Just the brave",
+            "day": "saturday",
+            "start": "14:50",
+            "end": "15:30",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: KY Kelly",
+            "day": "saturday",
+            "start": "15:30",
+            "end": "16:25",
+            "description": "KY Kelly on the main stage"
+        },
+        {
+            "title": "Main stage: Zara Larrson Tribute UK",
+            "day": "saturday",
+            "start": "16:25",
+            "end": "17:10",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Cleopatra",
+            "day": "saturday",
+            "start": "17:10",
+            "end": "17:47",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Esther Ghey (inspirational speaker)",
+            "day": "saturday",
+            "start": "17:47",
+            "end": "17:55",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Ghetto Fabulous",
+            "day": "saturday",
+            "start": "17:55",
+            "end": "18:45",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Michael Marouli",
+            "day": "saturday",
+            "start": "18:45",
+            "end": "19:25",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Alison Jiear",
+            "day": "saturday",
+            "start": "19:25",
+            "end": "20:00",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Russell T Davis (inspirational speaker)",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "20:10",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Meek",
+            "day": "saturday",
+            "start": "20:10",
+            "end": "20:55",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Gareth Gates - Boyband in the buff",
+            "day": "saturday",
+            "start": "20:55",
+            "end": "21:50",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: DJ Sammy",
+            "day": "saturday",
+            "start": "21:50",
+            "end": "23:00",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Host: Tayce",
+            "day": "sunday",
+            "start": "12:30",
+            "end": "16:30",
+            "description": "main stage host"
+        },
+        {
+            "title": "Main stage: Host: Feyisola & Zelah",
+            "day": "sunday",
+            "start": "16:30",
+            "end": "19:30",
+            "description": "main stage host"
+        },
+        {
+            "title": "Main stage: Host: Shania Pain",
+            "day": "sunday",
+            "start": "19:30",
+            "end": "23:30",
+            "description": "main stage host"
+        },
+        {
+            "title": "Main stage: DJ: Eden Binks",
+            "day": "sunday",
+            "start": "12:00",
+            "end": "17:30",
+            "description": "main stage DJ"
+        },
+        {
+            "title": "Main stage: DJ: Billy Andrew",
+            "day": "sunday",
+            "start": "17:30",
+            "end": "23:00",
+            "description": "main stage DJ"
+        },
+        {
+            "title": "Main stage: Tisha Harriott",
+            "day": "sunday",
+            "start": "12:40",
+            "end": "13:00",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Snow White Trash",
+            "day": "sunday",
+            "start": "13:00",
+            "end": "13:45",
+            "description": "Snow White Trash on the main stage"
+        },
+        {
+            "title": "Main stage: Michelle Lawson",
+            "day": "sunday",
+            "start": "13:40",
+            "end": "15:00",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Sam Buttery & Pam Sandwich Lawson",
+            "day": "sunday",
+            "start": "15:00",
+            "end": "15:50",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Diana Vickers",
+            "day": "sunday",
+            "start": "15:50",
+            "end": "16:35",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Misty Chane",
+            "day": "sunday",
+            "start": "16:35",
+            "end": "16:50",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Ali & Adam (inspirational speakers)",
+            "day": "sunday",
+            "start": "16:50",
+            "end": "17:00",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Misha B",
+            "day": "sunday",
+            "start": "17:00",
+            "end": "17:45",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Absolute Britney",
+            "day": "sunday",
+            "start": "17:45",
+            "end": "18:45",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Caity Baser",
+            "day": "sunday",
+            "start": "18:45",
+            "end": "19:20",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Annie Wallace (inspirational speaker)",
+            "day": "sunday",
+            "start": "19:20",
+            "end": "19:30",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Kate Nash",
+            "day": "sunday",
+            "start": "19:30",
+            "end": "20:25",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Adam Rickitt",
+            "day": "sunday",
+            "start": "20:25",
+            "end": "20:55",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Joshua Cavallo (inspirational speaker)",
+            "day": "sunday",
+            "start": "20:55",
+            "end": "21:05",
+            "description": "main stage act"
+        },
+        {
+            "title": "Main stage: Cascada",
+            "day": "sunday",
+            "start": "22:05",
+            "end": "23:00",
+            "description": "main stage act"
+        }
+    ],
+    "official": true
+}

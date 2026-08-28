@@ -1,0 +1,235 @@
+{
+    "venue": "Official - Gaydio Dance Arena",
+    "url": "https://www.manchestervillagepride.org/",
+    "address": "92 Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=92+Bloom+St,+Manchester+M1+3LY",
+    "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
+    "events": [
+        {
+            "title": "Dance Arena: DJ Cam",
+            "day": "friday",
+            "start": "18:00",
+            "end": "18:20",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: Bruk Out Academy school with Tysie Cam",
+            "day": "friday",
+            "start": "18:20",
+            "end": "18:40",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: DJ Cam",
+            "day": "friday",
+            "start": "18:40",
+            "end": "19:00",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: Pool Party with Harry",
+            "day": "friday",
+            "start": "19:00",
+            "end": "19:20",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: DJ Cam",
+            "day": "friday",
+            "start": "19:20",
+            "end": "19:40",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: Old School 905 Dancehall with DJ Cam",
+            "day": "friday",
+            "start": "19:40",
+            "end": "20:00",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: DJ Cam",
+            "day": "friday",
+            "start": "20:00",
+            "end": "20:20",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: Carnival with Dancers Cam",
+            "day": "friday",
+            "start": "20:20",
+            "end": "20:30",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: DJ Shelley",
+            "day": "friday",
+            "start": "20:30",
+            "end": "21:15",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: DJ JusT",
+            "day": "friday",
+            "start": "21:15",
+            "end": "22:00",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: DJ Mixstress & DJ Roisin Walsh B2B Cam",
+            "day": "friday",
+            "start": "22:00",
+            "end": "23:00",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: FREEMASONS",
+            "day": "friday",
+            "start": "23:00",
+            "end": "24:00",
+            "description": "Gaydio Dance Arena"
+        },
+        {
+            "title": "Dance Arena: Club Rat: DJ Kat Brown Sugar",
+            "day": "saturday",
+            "start": "15:00",
+            "end": "16:00",
+            "description": "Club Rat takeove of the dance arena @clubrat_entertainment and BANKSIE"
+        },
+        {
+            "title": "Dance Arena: Club Rat: Runway Moment: Drew Kent",
+            "day": "saturday",
+            "start": "16:00",
+            "end": "16:10",
+            "description": "Club Rat takeove of the dance arena @clubrat_entertainment and BANKSIE"
+        },
+        {
+            "title": "Dance Arena: Club Rat: DJ Reisner",
+            "day": "saturday",
+            "start": "16:10",
+            "end": "17:00",
+            "description": "Club Rat takeove of the dance arena @clubrat_entertainment and BANKSIE"
+        },
+        {
+            "title": "Dance Arena: Club Rat: Runway moment: Havoc",
+            "day": "saturday",
+            "start": "17:00",
+            "end": "17:10",
+            "description": "Club Rat takeove of the dance arena @clubrat_entertainment and BANKSIE"
+        },
+        {
+            "title": "Dance Arena: Club Rat: DJ Kim Lana",
+            "day": "saturday",
+            "start": "17:10",
+            "end": "18:00",
+            "description": "Club Rat takeove of the dance arena @clubrat_entertainment and BANKSIE"
+        },
+        {
+            "title": "Dance Arena: Kriss Herbert",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "19:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Chris Blackmore",
+            "day": "saturday",
+            "start": "19:00",
+            "end": "20:00",
+            "description": "Gaydio dance arena act"
+        }
+        ,
+        {
+            "title": "Dance Arena: Eden Binks",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "21:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Alfie B",
+            "day": "saturday",
+            "start": "21:00",
+            "end": "22:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Craig Law",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "24:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Silent Disco",
+            "day": "saturday",
+            "start": "24:00",
+            "end": "03:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Angel Pinks Introduction",
+            "day": "sunday",
+            "start": "15:00",
+            "end": "16:00",
+            "description": "Angel Pinks Introduction: Angel Pinks, Kadey, Tyla, Muneca, DJ set"
+        },
+        {
+            "title": "Dance Arena: Naoimi, Kynn, Muneca, Kadey, Vil DJ set",
+            "day": "sunday",
+            "start": "16:00",
+            "end": "17:00",
+            "description": "Angel pinks act"
+        },
+        {
+            "title": "Dance Arena: Kynn, Tyla, Vil, Naomi, Angel Pinks Solo, DJ set",
+            "day": "sunday",
+            "start": "17:00",
+            "end": "18:00",
+            "description": "Angel pinks acr"
+        },
+        {
+            "title": "Dance Arena: Kris Herbert & Comp Winner",
+            "day": "sunday",
+            "start": "18:00",
+            "end": "19:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Nik Denton",
+            "day": "sunday",
+            "start": "19:00",
+            "end": "20:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Kate Meyher",
+            "day": "sunday",
+            "start": "20:00",
+            "end": "21:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Dave Cooper B2B FORBID",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "22:30",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: DJ Paulette",
+            "day": "sunday",
+            "start": "22:30",
+            "end": "24:00",
+            "description": "Gaydio dance arena act"
+        },
+        {
+            "title": "Dance Arena: Silent Disco",
+            "day": "sunday",
+            "start": "24:00",
+            "end": "03:00",
+            "description": "Gaydio dance arena act"
+        }
+    ],
+    "official": true
+}

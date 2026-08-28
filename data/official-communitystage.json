@@ -1,0 +1,269 @@
+{
+    "venue": "Official - Community Stage",
+    "url": "https://www.manchestervillagepride.org/",
+    "address": "92 Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=92+Bloom+St,+Manchester+M1+3LY",
+    "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
+    "events": [
+        {
+            "title": "Community stage: Husk",
+            "day": "friday",
+            "start": "18:10",
+            "end": "18:35",
+            "description": ""
+        },
+        {
+            "title": "Community stage: Communty Showcase",
+            "day": "friday",
+            "start": "18:35",
+            "end": "19:45",
+            "description": "Paris Baby, Claudia Casanova, Delulu Lusional, Ferne Ando, Lara Stoned, Layla Mugler, Tiffany Jayy"
+        },
+        {
+            "title": "Community stage: Husk",
+            "day": "friday",
+            "start": "19:45",
+            "end": "23:00",
+            "description": "LoUis CYfer X Canal Street Kings - The Kings Stage 2026: Wolfy, TKMaxximus, Crip Ladywood, Don Vinaste, Dunks, Eva Serration, Jason Waterfalls, Mon-Cheri, Mr.Peach, Robin Reeds, Ross Dale, Wipher Snipher"
+        },
+        {
+            "title": "Community stage: host: Michael Sheridan & Alexa Vox",
+            "day": "saturday",
+            "start": "13:00",
+            "end": "16:30",
+            "description": "communty stage host"
+        },
+        {
+            "title": "Community stage: Dr Ranj & Tonya Kneez",
+            "day": "saturday",
+            "start": "16:30",
+            "end": "23:00",
+            "description": "Tonya Kneez hosting"
+        },
+        {
+            "title": "Community stage: DJ: Vivienne Lynsey",
+            "day": "saturday",
+            "start": "12:30",
+            "end": "23:00",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Ben Hodge",
+            "day": "saturday",
+            "start": "13:10",
+            "end": "13:30",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: The LGBT Foundation",
+            "day": "saturday",
+            "start": "13:30",
+            "end": "14:45",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Sparkle",
+            "day": "saturday",
+            "start": "14:45",
+            "end": "16:00",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: The Proud Trust",
+            "day": "saturday",
+            "start": "16:00",
+            "end": "17:15",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Albert Kennedy Trust",
+            "day": "saturday",
+            "start": "17:15",
+            "end": "18:25",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Manchester Proud Chorus",
+            "day": "saturday",
+            "start": "18:25",
+            "end": "18:45",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: XASCARLETTE",
+            "day": "saturday",
+            "start": "18:45",
+            "end": "19:00",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Freddie Mercury Tribute",
+            "day": "saturday",
+            "start": "19:00",
+            "end": "19:45",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Belinda & The Scandal Takeover",
+            "day": "saturday",
+            "start": "19:45",
+            "end": "23:00",
+            "description": "communty stage act: Mary Golds, Mary Kiani, Patrick Saint James, Robbie Barr, Betty Thunderthighs"
+        },
+        {
+            "title": "Community stage: Host: Annie Wallace & Rodger",
+            "day": "sunday",
+            "start": "13:00",
+            "end": "16:30",
+            "description": "communty stage host"
+        },
+        {
+            "title": "Community stage: Host: Reece Ryan & Sum Ting Wong",
+            "day": "sunday",
+            "start": "16:30",
+            "end": "23:00",
+            "description": "communty stage host"
+        },
+        {
+            "title": "Community stage: DJ: Shazza Fierce",
+            "day": "sunday",
+            "start": "12:30",
+            "end": "23:00",
+            "description": "communty stage DJ"
+        },
+        {
+            "title": "Community stage: Nate Ethan",
+            "day": "sunday",
+            "start": "13:10",
+            "end": "13:30",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Sparkle",
+            "day": "sunday",
+            "start": "13:30",
+            "end": "14:45",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Albert Kennedy Trust",
+            "day": "sunday",
+            "start": "14:45",
+            "end": "16:00",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Martha D'Arthur",
+            "day": "sunday",
+            "start": "15:15",
+            "end": "15:45",
+            "description": "Martha D'Arthur."
+        },
+        {
+            "title": "Community stage: The Proud Trust",
+            "day": "sunday",
+            "start": "16:00",
+            "end": "17:10",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: The LGBT Foundation",
+            "day": "sunday",
+            "start": "17:10",
+            "end": "18:30",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Rebekah",
+            "day": "sunday",
+            "start": "18:30",
+            "end": "19:00",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Big Dee",
+            "day": "sunday",
+            "start": "19:00",
+            "end": "19:25",
+            "description": "communty stage act"
+        },
+        {
+            "title": "Community stage: Rob Bowden King",
+            "day": "sunday",
+            "start": "19:25",
+            "end": "19:45",
+            "description": "Rob Bowden King."
+        },
+        {
+            "title": "Community stage: Misty Chance & The Chancers",
+            "day": "sunday",
+            "start": "19:45",
+            "end": "23:00",
+            "description": "Zahirah Zapanta, Danni, Coco Delinguent, Saki Yew, Portia Parker, Ivy Groove, Ginger Hunter, Vil, Hayley-Ria Christian, Edge of town arts."
+        },
+        {
+            "title": "Community Stage: Host: Ana Phylactic",
+            "day": "monday",
+            "start": "13:00",
+            "end": "17:00",
+            "description": "Community Stage host"
+        },
+        {
+            "title": "Community Stage: DJ: Tina Tuna",
+            "day": "monday",
+            "start": "12:00",
+            "end": "17:00",
+            "description": "Community Stage DJ"
+        },
+        {
+            "title": "Community Stage: Oldham Theatre Workshop",
+            "day": "monday",
+            "start": "11:00",
+            "end": "13:15",
+            "description": "Community Stage act"
+        },
+        {
+            "title": "Community Stage: Gay Gordons",
+            "day": "monday",
+            "start": "13:15",
+            "end": "13:50",
+            "description": "Community Stage act"
+        },
+        {
+            "title": "Community Stage: The Alter Girls & The Demonics",
+            "day": "monday",
+            "start": "13:50",
+            "end": "14:20",
+            "description": "Community Stage act"
+        },
+        {
+            "title": "Community Stage: Jordan Smart",
+            "day": "monday",
+            "start": "14:20",
+            "end": "14:55",
+            "description": "Community Stage act"
+        },
+        {
+            "title": "Community Stage: Rowetta",
+            "day": "monday",
+            "start": "14:55",
+            "end": "15:35",
+            "description": "Community Stage act"
+        },
+        {
+            "title": "Community Stage: Club Zindagi",
+            "day": "monday",
+            "start": "15:35",
+            "end": "17:00",
+            "description": "Community Stage act"
+        },
+        {
+            "title": "Community Stage: The Vigil",
+            "day": "monday",
+            "start": "18:00",
+            "end": "20:00",
+            "description": "The George House Trust Vigil."
+        }
+    ],
+    "official": true
+}

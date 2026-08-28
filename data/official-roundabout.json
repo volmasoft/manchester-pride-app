@@ -1,0 +1,199 @@
+{
+    "venue": "Official - Roundabout stage",
+    "url": "https://www.manchestervillagepride.org/",
+    "address": "92 Bloom St, Manchester M1 3LY",
+    "mapsUrl": "https://www.google.com/maps?q=92+Bloom+St,+Manchester+M1+3LY",
+    "color": "linear-gradient(135deg, #15803d 0%, #16a34a 45%, #4ade80 100%)",
+    "events": [
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "friday",
+            "start": "19:00",
+            "end": "19:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Dunks",
+            "day": "friday",
+            "start": "19:30",
+            "end": "20:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "friday",
+            "start": "20:00",
+            "end": "20:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tina Tuna",
+            "day": "friday",
+            "start": "20:30",
+            "end": "21:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "friday",
+            "start": "21:00",
+            "end": "21:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tina Tuna",
+            "day": "friday",
+            "start": "21:30",
+            "end": "22:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "friday",
+            "start": "22:00",
+            "end": "22:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tonya Kneez",
+            "day": "friday",
+            "start": "22:30",
+            "end": "23:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Gigi Spot",
+            "day": "saturday",
+            "start": "17:00",
+            "end": "17:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "saturday",
+            "start": "17:30",
+            "end": "18:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Dunks",
+            "day": "saturday",
+            "start": "18:00",
+            "end": "19:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Letitia Delish",
+            "day": "saturday",
+            "start": "19:00",
+            "end": "19:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "saturday",
+            "start": "19:30",
+            "end": "20:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Letitia Delish",
+            "day": "saturday",
+            "start": "20:00",
+            "end": "20:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "saturday",
+            "start": "20:30",
+            "end": "21:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Letitia Delish",
+            "day": "saturday",
+            "start": "21:00",
+            "end": "21:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "saturday",
+            "start": "21:30",
+            "end": "22:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Letitia Delish",
+            "day": "saturday",
+            "start": "22:00",
+            "end": "22:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Shazza Fierce",
+            "day": "saturday",
+            "start": "22:30",
+            "end": "23:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tonya Kneez",
+            "day": "sunday",
+            "start": "17:30",
+            "end": "18:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Dunks",
+            "day": "sunday",
+            "start": "18:00",
+            "end": "19:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tonya Kneez",
+            "day": "sunday",
+            "start": "19:00",
+            "end": "19:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tina Tuna",
+            "day": "sunday",
+            "start": "19:30",
+            "end": "20:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Aura Star",
+            "day": "sunday",
+            "start": "20:00",
+            "end": "20:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tina Tuna",
+            "day": "sunday",
+            "start": "20:30",
+            "end": "21:00",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Aura Star",
+            "day": "sunday",
+            "start": "21:00",
+            "end": "21:30",
+            "description": "Roundabout stage (new stage)"
+        },
+        {
+            "title": "Roundabout: Tina Tuna",
+            "day": "sunday",
+            "start": "21:30",
+            "end": "22:00",
+            "description": "Roundabout stage (new stage)"
+        }
+    ],
+    "official": true
+}
