@@ -23,6 +23,32 @@ body {
   padding: 24px;
 }
 
+.thank-you-message {
+  background: rgba(0, 128, 0, 0.1);
+  border: 1px solid rgba(0, 128, 0, 0.3);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.thank-you-message p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.thank-you-message p:first-child {
+  margin-top: 0;
+}
+
+.thank-you-message p:last-child {
+  margin-bottom: 0;
+}
+
+.thank-you-message strong {
+  color: var(--accent);
+}
+
+
       .nav-link {
         display: inline-block;
         padding: 8px 16px;
